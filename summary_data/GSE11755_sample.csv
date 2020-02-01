@@ -1,0 +1,42 @@
+Source,Organism,Molecule,Characteristic
+Patient1/Lymphocyte/T8,Homo sapiens,total RNA,T8 patient 1
+Patient1/Lymphocyte/T24,Homo sapiens,total RNA,T24 patient 1
+Patient1/Lymphocyte/T72,Homo sapiens,total RNA,T72 patient1
+Patient1/Monocyte/T0,Homo sapiens,total RNA,T0 patient 1
+Patient1/Monocyte/T8,Homo sapiens,total RNA,T8 Patient 1
+Patient1/Monocyte/T24,Homo sapiens,total RNA,T24 Patient 1
+Patient1/Monocyte/T72,Homo sapiens,total RNA,T72 patient 1
+Patient1/Blood/T24,Homo sapiens,total RNA,T24 Patient 1
+Patient1/Blood/T72,Homo sapiens,total RNA,T72 patient 1
+Patient2/Lymphocyte/T0,Homo sapiens,total RNA,T0 Patient 2
+Patient2/Lymphocyte/T24,Homo sapiens,total RNA,T24 Patient 2
+Patient2/Lymphocyte/T72,Homo sapiens,total RNA,T72 patient 2
+Patient2/Monocyte/T8,Homo sapiens,total RNA,T8 patient 2
+Patient2/Monocyte/T24,Homo sapiens,total RNA,T24 Patient 2
+Patient2/Blood/T0,Homo sapiens,total RNA,T0 patient 2
+Patient2/Blood/T8,Homo sapiens,total RNA,T8 patient 2
+Patient2/Blood/T24,Homo sapiens,total RNA,T24 patient 2
+Patient2/Blood/T72,Homo sapiens,total RNA,T72 patient 2
+Patient3/Lymphocyte/T0,Homo sapiens,total RNA,T0 patient 3
+Patient3/Lymphocyte/T8,Homo sapiens,total RNA,T8 patient 3
+Patient3/Lymphocyte/T24,Homo sapiens,total RNA,T24 patient 3
+Patient3/Monocyte/T0,Homo sapiens,total RNA,T0 patient 3
+Patient3/Monocyte/T8,Homo sapiens,total RNA,T8 patient 3
+Patient3/Monocyte/T24,Homo sapiens,total RNA,T24 patient 3
+Patient3/Blood/T0,Homo sapiens,total RNA,T0 patient 3
+Patient3/Blood/T24,Homo sapiens,total RNA,T24 patient 3
+Patient4/Lymphocyte/T8,Homo sapiens,total RNA,T0 patient 4
+Patient4/Lymphocyte/T24,Homo sapiens,total RNA,T24 patient 4
+Patient4/Monocyte/T0,Homo sapiens,total RNA,T0 patient 4
+Control-b/Lymphocyte,Homo sapiens,total RNA,controle b
+Control-b/Monocyte,Homo sapiens,total RNA,controle b
+Control-b/Blood,Homo sapiens,total RNA,Controle b
+Control-c/Lymphocyte,Homo sapiens,total RNA,Controle c
+Control-c/Blood,Homo sapiens,total RNA,controle c
+Control-d/Lymphocyte,Homo sapiens,total RNA,Controle d
+Control-d/Monocyte,Homo sapiens,total RNA,Controle d
+Control-a/Lymphocyte,Homo sapiens,total RNA,Controle a
+Control-a/Monocyte,Homo sapiens,total RNA,Controle a
+Control-a/Blood,Homo sapiens,total RNA,Controle a
+Patient6/Lymphocyte/T24,Homo sapiens,total RNA,T24 patient 6
+Patient6/Monocyte/T0,Homo sapiens,total RNA,T0 patient 6

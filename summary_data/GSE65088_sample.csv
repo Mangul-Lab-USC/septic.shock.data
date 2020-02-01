@@ -1,0 +1,58 @@
+Source,Organism,Molecule,individual,infection,time,gender,tissue
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Candida albicans,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Candida albicans,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Staphylococcus aureus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Staphylococcus aureus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Escherichia coli,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Escherichia coli,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Candida albicans,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Candida albicans,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Staphylococcus aureus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Staphylococcus aureus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Escherichia coli,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 2,Escherichia coli,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Candida albicans,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Candida albicans,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Staphylococcus aureus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Staphylococcus aureus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Escherichia coli,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 3,Escherichia coli,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Candida albicans,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Candida albicans,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Staphylococcus aureus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Staphylococcus aureus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Escherichia coli,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 1,Escherichia coli,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Candida albicans,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Candida albicans,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Staphylococcus aureus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Staphylococcus aureus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Escherichia coli,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 4,Escherichia coli,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 5,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 5,mock,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 5,Aspergillus fumigatus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 5,Aspergillus fumigatus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 6,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 6,mock,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 6,Aspergillus fumigatus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 6,Aspergillus fumigatus,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 7,mock,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 7,mock,8h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 7,Aspergillus fumigatus,4h post infection,male,blood
+Whole blood,Homo sapiens,total RNA,donor 7,Aspergillus fumigatus,8h post infection,male,blood

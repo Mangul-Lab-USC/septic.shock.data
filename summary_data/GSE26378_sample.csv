@@ -1,0 +1,104 @@
+organism,molecule,tissue,disease,age,outcome
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,3.8,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,1.1,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,7.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.6,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,normal control,1.3,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,0.5,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,5,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.6,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,6.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.8,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.4,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,6.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,3.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.3,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.5,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,8.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,4.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,normal control,2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.1,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,4.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,4.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5.2,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,7.4,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,4.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,4.2,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,7.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,3.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2.4,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5.6,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2.8,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,9.6,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,4.6,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,1.2,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,2.3,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,2.9,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,3.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.8,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,1.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.6,Nonsurvivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,5.2,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,0.3,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,9.1,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,1,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,2.9,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,4.2,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,2.2,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,2.9,Survivor
+Homo sapiens,total RNA,Whole Blood,normal control,0.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,6.5,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,8.7,Survivor
+Homo sapiens,total RNA,Whole Blood,septic shock patient,2.4,Survivor

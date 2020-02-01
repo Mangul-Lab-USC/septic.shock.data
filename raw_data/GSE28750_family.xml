@@ -1,0 +1,2872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Gareth</First><Last>Price</Last></Person>
+    <Email>nscalehome@gmail.com</Email>
+    <Phone>61413289611</Phone>
+    <Organization>Queensland Facility for Advanced Bioinformatics</Organization>
+    <Address>
+      <Line>Carmody Road</Line>
+      <City>Brisbane</City>
+      <State>Queensland</State>
+      <Postal-Code>4072</Postal-Code>
+      <Country>Australia</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Allison</First><Last>Sutherland</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Mervyn</First><Last>Thomas</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Roslyn</First><Middle>A</Middle><Last>Brandon</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Richard</First><Middle>B</Middle><Last>Brandon</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Jeffrey</First><Last>Lipman</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Benjamin</First><Last>Tang</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Anthony</First><Last>McLean</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Ranald</First><Last>Pascoe</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Thu</First><Last>Nguyen</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib12">
+    <Person><First>Glenn</First><Last>Stone</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib13">
+    <Person><First>Deon</First><Last>Venter</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM712478">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_1</Title>
+    <Accession database="GEO">GSM712478</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712478/suppl/GSM712478_af1c1302-1-zm-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712478/suppl/GSM712478_af1c1302-1-zm-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712478-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712479">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_2</Title>
+    <Accession database="GEO">GSM712479</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712479/suppl/GSM712479_af1c1302-10-pd-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712479/suppl/GSM712479_af1c1302-10-pd-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712479-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712480">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_3</Title>
+    <Accession database="GEO">GSM712480</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712480/suppl/GSM712480_af1c1302-11-br-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712480/suppl/GSM712480_af1c1302-11-br-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712480-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712481">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_4</Title>
+    <Accession database="GEO">GSM712481</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712481/suppl/GSM712481_af1c1302-2-tw-1-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712481/suppl/GSM712481_af1c1302-2-tw-1-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712481-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712482">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_5</Title>
+    <Accession database="GEO">GSM712482</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712482/suppl/GSM712482_af1c1302-3-kc-1-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712482/suppl/GSM712482_af1c1302-3-kc-1-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712482-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712483">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_6</Title>
+    <Accession database="GEO">GSM712483</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712483/suppl/GSM712483_af1c1302-5-jb-1-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712483/suppl/GSM712483_af1c1302-5-jb-1-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712483-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712484">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_7</Title>
+    <Accession database="GEO">GSM712484</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712484/suppl/GSM712484_af1c1302-6-tw-2-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712484/suppl/GSM712484_af1c1302-6-tw-2-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712484-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712485">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_8</Title>
+    <Accession database="GEO">GSM712485</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712485/suppl/GSM712485_af1c1302-7-pg-1-tubea_b-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712485/suppl/GSM712485_af1c1302-7-pg-1-tubea_b-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712485-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712486">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_9</Title>
+    <Accession database="GEO">GSM712486</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712486/suppl/GSM712486_af1c1302-8-ed-1-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712486/suppl/GSM712486_af1c1302-8-ed-1-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712486-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712487">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Sepsis_10</Title>
+    <Accession database="GEO">GSM712487</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+SEPSIS
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Enrolled within 24 hours of admission, Met ACCP/SCCM Consensus Statement, Positive Microbiological Culture
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712487/suppl/GSM712487_af1c1302-9-ds-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712487/suppl/GSM712487_af1c1302-9-ds-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712487-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712488">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_1</Title>
+    <Accession database="GEO">GSM712488</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712488/suppl/GSM712488_af1c1302-13-female-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712488/suppl/GSM712488_af1c1302-13-female-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712488-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712489">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_2</Title>
+    <Accession database="GEO">GSM712489</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712489/suppl/GSM712489_af1c1302-14-female-2-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712489/suppl/GSM712489_af1c1302-14-female-2-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712489-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712490">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_3</Title>
+    <Accession database="GEO">GSM712490</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712490/suppl/GSM712490_af1c1302-15-female-3-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712490/suppl/GSM712490_af1c1302-15-female-3-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712490-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712491">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_4</Title>
+    <Accession database="GEO">GSM712491</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712491/suppl/GSM712491_af1c1302-16-female-4-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712491/suppl/GSM712491_af1c1302-16-female-4-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712491-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712492">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_5</Title>
+    <Accession database="GEO">GSM712492</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712492/suppl/GSM712492_af1c1302-17-female-5-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712492/suppl/GSM712492_af1c1302-17-female-5-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712492-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712493">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_6</Title>
+    <Accession database="GEO">GSM712493</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712493/suppl/GSM712493_af1c1302-18-female-6-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712493/suppl/GSM712493_af1c1302-18-female-6-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712493-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712494">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_7</Title>
+    <Accession database="GEO">GSM712494</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712494/suppl/GSM712494_af1c1302-19-female-7-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712494/suppl/GSM712494_af1c1302-19-female-7-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712494-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712495">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_8</Title>
+    <Accession database="GEO">GSM712495</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712495/suppl/GSM712495_af1c1302-20-female-8-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712495/suppl/GSM712495_af1c1302-20-female-8-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712495-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712496">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_9</Title>
+    <Accession database="GEO">GSM712496</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712496/suppl/GSM712496_af1c1302-21-female-9-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712496/suppl/GSM712496_af1c1302-21-female-9-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712496-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712497">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_10</Title>
+    <Accession database="GEO">GSM712497</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712497/suppl/GSM712497_af1c1302-22-female-10-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712497/suppl/GSM712497_af1c1302-22-female-10-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712497-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712498">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_11</Title>
+    <Accession database="GEO">GSM712498</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712498/suppl/GSM712498_af1c1302-23-male-1-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712498/suppl/GSM712498_af1c1302-23-male-1-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712498-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712499">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_12</Title>
+    <Accession database="GEO">GSM712499</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712499/suppl/GSM712499_af1c1302-24-male-2-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712499/suppl/GSM712499_af1c1302-24-male-2-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712499-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712500">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_13</Title>
+    <Accession database="GEO">GSM712500</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712500/suppl/GSM712500_af1c1302-25-male-3-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712500/suppl/GSM712500_af1c1302-25-male-3-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712500-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712501">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_14</Title>
+    <Accession database="GEO">GSM712501</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712501/suppl/GSM712501_af1c1302-26-male-4-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712501/suppl/GSM712501_af1c1302-26-male-4-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712501-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712502">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_15</Title>
+    <Accession database="GEO">GSM712502</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712502/suppl/GSM712502_af1c1302-27-male-5-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712502/suppl/GSM712502_af1c1302-27-male-5-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712502-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712503">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_16</Title>
+    <Accession database="GEO">GSM712503</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712503/suppl/GSM712503_af1c1302-28-male-6-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712503/suppl/GSM712503_af1c1302-28-male-6-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712503-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712504">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_17</Title>
+    <Accession database="GEO">GSM712504</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712504/suppl/GSM712504_af1c1302-29-male-7-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712504/suppl/GSM712504_af1c1302-29-male-7-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712504-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712505">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_18</Title>
+    <Accession database="GEO">GSM712505</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712505/suppl/GSM712505_af1c1302-30-male-8-tubea-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712505/suppl/GSM712505_af1c1302-30-male-8-tubea-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712505-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712506">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_19</Title>
+    <Accession database="GEO">GSM712506</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712506/suppl/GSM712506_af1c1302-31-male-9-tubeb-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712506/suppl/GSM712506_af1c1302-31-male-9-tubeb-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712506-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712507">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Control_Healthy_20</Title>
+    <Accession database="GEO">GSM712507</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+HEALTHY
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+No concurrent illnesses, No past history of immunological dysfunction
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712507/suppl/GSM712507_af1c1302-32-male-10-replacement-181207.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712507/suppl/GSM712507_af1c1302-32-male-10-replacement-181207.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712507-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712508">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_1</Title>
+    <Accession database="GEO">GSM712508</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712508/suppl/GSM712508_Control_009_DHC.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712508/suppl/GSM712508_Control_009_DHC.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712508-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712509">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_2</Title>
+    <Accession database="GEO">GSM712509</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712509/suppl/GSM712509_Control_010_SEN.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712509/suppl/GSM712509_Control_010_SEN.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712509-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712510">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_3</Title>
+    <Accession database="GEO">GSM712510</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712510/suppl/GSM712510_Control_012_RAW.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712510/suppl/GSM712510_Control_012_RAW.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712510-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712511">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_4</Title>
+    <Accession database="GEO">GSM712511</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712511/suppl/GSM712511_Control_014_MXM.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712511/suppl/GSM712511_Control_014_MXM.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712511-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712512">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_5</Title>
+    <Accession database="GEO">GSM712512</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712512/suppl/GSM712512_Control_015_JMW.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712512/suppl/GSM712512_Control_015_JMW.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712512-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712513">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_6</Title>
+    <Accession database="GEO">GSM712513</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712513/suppl/GSM712513_Control_016_KJC.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712513/suppl/GSM712513_Control_016_KJC.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712513-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712514">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_7</Title>
+    <Accession database="GEO">GSM712514</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712514/suppl/GSM712514_Control_018_JLB.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712514/suppl/GSM712514_Control_018_JLB.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712514-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712515">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_8</Title>
+    <Accession database="GEO">GSM712515</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712515/suppl/GSM712515_Control_019_R_F.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712515/suppl/GSM712515_Control_019_R_F.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712515-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712516">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_9</Title>
+    <Accession database="GEO">GSM712516</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712516/suppl/GSM712516_Control_020_JER.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712516/suppl/GSM712516_Control_020_JER.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712516-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712517">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_10</Title>
+    <Accession database="GEO">GSM712517</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712517/suppl/GSM712517_Control_021_MEF.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712517/suppl/GSM712517_Control_021_MEF.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712517-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM712518">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2011-11-01</Last-Update-Date>
+    </Status>
+    <Title>Experiment_Post_Surgical_11</Title>
+    <Accession database="GEO">GSM712518</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+whole blood
+      </Characteristics>
+      <Characteristics tag="health status">
+POST_SURGICAL
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was extracted using PAXgene Blood RNA kits (PreAnalytix, a Qiagen/BD Company, Feldbachstrasse, Switzerland), according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared using the One-Cycle Target Labelling and Control Reagents Kit, according to manufacturers protocol from 10ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+10ug of fragmented biotinylated cRNA was hybridised for 16hrs at 45oC on a HGU133 Plus 2.0 GeneChip. After 16hrs GeneChips were washed on a FS_450 Fluidics Station using the EukGE-Ws2v5 script.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Data was acquired on a 7G GeneChip Scanner 3000 and data extraction performed in GCOS v1.2.
+    </Scan-Protocol>
+    <Description>
+Collected within 24 hours post surgery, major open chest surgery
+    </Description>
+    <Data-Processing>
+CHP files were generated using a combination of Affymetrix Power Tools, R and Perl scripts to filter background noise and normalise data based on a detection metric used to identify perfect match probes relative to other background probes. Differentially expressed genes were compared if the signal was &gt;100 and the fold change was &gt;2.0.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712518/suppl/GSM712518_Control_022_ACB.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM712nnn/GSM712518/suppl/GSM712518_Control_022_ACB.mas5-bg.pm-mm.mas5-signal.chp.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM712518-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE28750">
+    <Status database="GEO">
+      <Submission-Date>2011-04-20</Submission-Date>
+      <Release-Date>2011-11-01</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Development and Validation of a Novel Molecular Biomarker Diagnostic Test for the Early Detection of Sepsis</Title>
+    <Accession database="GEO">GSE28750</Accession>
+    <Pubmed-ID>21682927</Pubmed-ID>
+    <Summary>
+Introduction: Sepsis is a complex immunological response to infection characterized by early hyperinflammation followed by severe and protracted immunosuppression, suggesting that a multi-marker approach has the greatest clinical utility for early detection, within a clinical environment focused on SIRS differentiation. Pre-clinical research using an equine sepsis model identified a panel of gene expression biomarkers that define the early aberrant immune activation. Thus, the primary objective was to apply these gene expression biomarkers to distinguish patients with sepsis from those who had undergone major open surgery and had clinical outcomes consistent with systemic inflammation due to physical trauma and wound healing.
+Methods: This was a multi-centre, prospective clinical trial conducted across 4 tertiary critical care settings in Australia. Sepsis patients were recruited if they met the 1992 Consensus Statement criteria and had clinical evidence of systemic infection based on microbiology diagnoses (n=27). Participants in the post-surgical (PS) group were recruited pre-operatively and blood samples collected within 24 hours following surgery (n=38).  Healthy controls (HC) included hospital staff with no known concurrent illnesses (n=20). Each participant had minimally 5ml of PAXgene blood collected for leucocyte RNA isolation and gene expression analyses. Affymetrix array and multiplex tandem (MT)-PCR studies were conducted to evaluate transcriptional profiles in circulating white blood cells applying a set of 42 molecular markers that had been identified a priori. A LogitBoost algorithm was used to create a machine learning diagnostic rule to predict sepsis outcomes.
+Results: Based on preliminary microarray analyses comparing HC and sepsis groups. A panel of 42-gene expression markers were identified that represented  key innate and adaptive immune function, cell cycling, WBC differentiation, extracellular remodelling and immune modulation pathways. Comparisons against GEO data confirmed the definitive separation of the sepsis cohort. Quantitative PCR results suggest the capacity for this test to differentiate severe systemic inflammation from HC is 92%. AUC ROC curve findings demonstrated sepsis prediction within a mixed inflammatory population, was between 86 - 92%.
+Conclusions: This novel molecular biomarker test has a clinically relevant sensitivity and specificity profile, and has the capacity for early detection of sepsis via the monitoring of critical care patients.
+GEO Note: Data made available represents the preliminary microarray investigation performed on Human U133 Plus 2.0 GeneChips (Affymetrix), assaying 41 patient samples (Sepsis n=10, Post-Surgical n=11, Control n=20).
+    </Summary>
+    <Overall-Design>
+This was a multi-centre, prospective clinical trial conducted across 4 tertiary critical care settings in Australia. Sepsis patients were recruited if they met the 1992 Consensus Statement criteria and had clinical evidence of systemic infection based on microbiology diagnoses (n=27). Participants in the post-surgical (PS) group were recruited pre-operatively and blood samples collected within 24 hours following surgery (n=38).  Healthy controls (HC) included hospital staff with no known concurrent illnesses (n=20). Each participant had minimally 5ml of PAXgene blood collected for leucocyte RNA isolation and gene expression analyses. The GEO data represents the preliminary microarray investigation performed on Human U133 Plus 2.0 GeneChips (Affymetrix), assaying 41 patient samples (Sepsis n=10, Post-Surgical n=11, Control n=20).
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib5" position="3" />
+    <Contributor-Ref ref="contrib6" position="4" />
+    <Contributor-Ref ref="contrib7" position="5" />
+    <Contributor-Ref ref="contrib8" position="6" />
+    <Contributor-Ref ref="contrib9" position="7" />
+    <Contributor-Ref ref="contrib10" position="8" />
+    <Contributor-Ref ref="contrib1" position="9" />
+    <Contributor-Ref ref="contrib11" position="10" />
+    <Contributor-Ref ref="contrib12" position="11" />
+    <Contributor-Ref ref="contrib13" position="12" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM712478" />
+    <Sample-Ref ref="GSM712479" />
+    <Sample-Ref ref="GSM712480" />
+    <Sample-Ref ref="GSM712481" />
+    <Sample-Ref ref="GSM712482" />
+    <Sample-Ref ref="GSM712483" />
+    <Sample-Ref ref="GSM712484" />
+    <Sample-Ref ref="GSM712485" />
+    <Sample-Ref ref="GSM712486" />
+    <Sample-Ref ref="GSM712487" />
+    <Sample-Ref ref="GSM712488" />
+    <Sample-Ref ref="GSM712489" />
+    <Sample-Ref ref="GSM712490" />
+    <Sample-Ref ref="GSM712491" />
+    <Sample-Ref ref="GSM712492" />
+    <Sample-Ref ref="GSM712493" />
+    <Sample-Ref ref="GSM712494" />
+    <Sample-Ref ref="GSM712495" />
+    <Sample-Ref ref="GSM712496" />
+    <Sample-Ref ref="GSM712497" />
+    <Sample-Ref ref="GSM712498" />
+    <Sample-Ref ref="GSM712499" />
+    <Sample-Ref ref="GSM712500" />
+    <Sample-Ref ref="GSM712501" />
+    <Sample-Ref ref="GSM712502" />
+    <Sample-Ref ref="GSM712503" />
+    <Sample-Ref ref="GSM712504" />
+    <Sample-Ref ref="GSM712505" />
+    <Sample-Ref ref="GSM712506" />
+    <Sample-Ref ref="GSM712507" />
+    <Sample-Ref ref="GSM712508" />
+    <Sample-Ref ref="GSM712509" />
+    <Sample-Ref ref="GSM712510" />
+    <Sample-Ref ref="GSM712511" />
+    <Sample-Ref ref="GSM712512" />
+    <Sample-Ref ref="GSM712513" />
+    <Sample-Ref ref="GSM712514" />
+    <Sample-Ref ref="GSM712515" />
+    <Sample-Ref ref="GSM712516" />
+    <Sample-Ref ref="GSM712517" />
+    <Sample-Ref ref="GSM712518" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE28nnn/GSE28750/suppl/GSE28750_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA138719" />
+  </Series>
+
+</MINiML>

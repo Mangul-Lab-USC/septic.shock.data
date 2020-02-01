@@ -1,0 +1,322 @@
+Source,Organism,Molecule,host strain,host gender,host age (yr),pathogen,bacterial strain,pathogen   dosage cfu/g,inoculum route,anatomic site of infection,infection status,time after infection (h),replicate number,experimental batch
+blood 129S1/SvImJ mouse strain NOT infected,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood 129S1/SvImJ mouse strain NOT infected,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood 129S1/SvImJ mouse strain NOT infected,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood 129S1/SvImJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood 129S1/SvImJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood 129S1/SvImJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,129S1/SvImJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,1,6
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,2,6
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,3,6
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,1,1
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,2,1
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,3,1
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,4,1
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,5,1
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,5,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,4,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,1,1
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,2,1
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,3,1
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,4,1
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,5,1
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus MW2,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,MW2,1.00E+07,peritoneum,-,infected,2,1,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus MW2,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,MW2,1.00E+07,peritoneum,-,infected,2,2,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus MW2,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,MW2,1.00E+07,peritoneum,-,infected,2,3,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,4,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,5,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,6
+blood A/J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,1,2
+blood A/J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,2,2
+blood A/J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,3,2
+blood A/J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,4,2
+blood A/J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,5,2
+blood A/J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,1,2
+blood A/J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,2,2
+blood A/J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,3,2
+blood A/J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,4,2
+blood A/J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,5,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,1,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,2,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,3,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,4,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,5,2
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,1,1
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,2,1
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,3,1
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,4,1
+blood A/J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,5,1
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA100,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA100,1.00E+07,peritoneum,-,infected,2,1,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA100,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA100,1.00E+07,peritoneum,-,infected,2,2,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA100,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA100,1.00E+07,peritoneum,-,infected,2,3,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,1,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,2,6
+blood A/J mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,A/J,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,3,6
+blood AKR/J mouse strain NOT infected,Mus musculus,total RNA,AKR/J,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood AKR/J mouse strain NOT infected,Mus musculus,total RNA,AKR/J,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood AKR/J mouse strain NOT infected,Mus musculus,total RNA,AKR/J,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood AKR/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,AKR/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood AKR/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,AKR/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood AKR/J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,AKR/J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood BALB/cBy mouse strain NOT infected,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood BALB/cBy mouse strain NOT infected,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood BALB/cBy mouse strain NOT infected,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood BALB/cBy mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood BALB/cBy mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood BALB/cBy mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,BALB/cByJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood C3H/HeJ mouse strain NOT infected,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood C3H/HeJ mouse strain NOT infected,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood C3H/HeJ mouse strain NOT infected,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood C3H/HeJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood C3H/HeJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood C3H/HeJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C3H/HeJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger479,1.00E+07,peritoneum,-,infected,2,3,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,1,1
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,2,1
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,3,1
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,4,1
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,5,1
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,5,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,4,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,1,1
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,2,1
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,3,1
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,4,1
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,5,1
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,4,2
+blood C57BL/6J mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,5,2
+blood C57BL/6J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,1,2
+blood C57BL/6J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,2,2
+blood C57BL/6J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,3,2
+blood C57BL/6J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,4,2
+blood C57BL/6J mouse strain blood taken 4 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,4,5,2
+blood C57BL/6J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,1,2
+blood C57BL/6J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,2,2
+blood C57BL/6J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,3,2
+blood C57BL/6J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,4,2
+blood C57BL/6J mouse strain blood taken 6 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,6,5,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,1,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,2,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,3,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,4,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,5,2
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,2,1
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,3,1
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,4,1
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,5,1
+blood C57BL/6J mouse strain blood taken 12 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,12,1,1
+blood NOD/ShiLtJ mouse strain NOT infected,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,-,-,-,-,-,-,0,1,2
+blood NOD/ShiLtJ mouse strain NOT infected,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,-,-,-,-,-,-,0,2,2
+blood NOD/ShiLtJ mouse strain NOT infected,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,-,-,-,-,-,-,0,3,2
+blood NOD/ShiLtJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,2
+blood NOD/ShiLtJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,2
+blood NOD/ShiLtJ mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,NOD/ShiLtJ,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,2
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,1,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,1,8
+blood A/J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,1,8
+blood A/J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,1,8
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,1,8
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,1,8
+blood C57BL/6J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,1,8
+blood C57BL/6J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,1,8
+blood C57BL/6J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,1,8
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,1,8
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,2,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,2,8
+blood A/J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,2,8
+blood A/J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,2,8
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,2,8
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,2,8
+blood C57BL/6J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,2,8
+blood C57BL/6J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,2,8
+blood C57BL/6J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,2,8
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,2,8
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,3,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,3,8
+blood A/J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,3,8
+blood A/J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,3,8
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,3,8
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,3,8
+blood C57BL/6J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,3,8
+blood C57BL/6J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,3,8
+blood C57BL/6J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,3,8
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,3,8
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,4,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,4,8
+blood A/J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,4,8
+blood A/J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,4,8
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,4,8
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,4,8
+blood C57BL/6J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,4,8
+blood C57BL/6J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,4,8
+blood C57BL/6J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,4,8
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,4,8
+blood A/J mouse strain NOT infected,Mus musculus,total RNA,A/J,male,0.50-0.66,-,-,-,-,-,-,0,5,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,5,8
+blood A/J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,5,8
+blood A/J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,5,8
+blood A/J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,A/J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,5,8
+blood C57BL/6J mouse strain NOT infected,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,-,-,-,-,-,-,0,5,8
+blood A/J mouse strain blood taken 2 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,2,5,8
+blood C57BL/6J mouse strain blood taken 6 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,6,5,8
+blood C57BL/6J mouse strain blood taken 12 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,12,5,8
+blood C57BL/6J mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,C57BL/6J,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,5,8
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,1,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,2,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,1,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,2,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,1,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,2,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,1,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,2,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,3,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,4,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,3,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,4,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,3,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,4,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,3,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,4,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,5,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,6,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,5,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,6,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,5,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,6,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,5,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,6,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,7,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,8,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,7,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,8,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,7,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,8,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,7,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,8,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,9,9
+blood CD1 mouse strain NOT infected,Mus musculus,total RNA,CD1,male,0.50-0.66,-,-,-,-,-,-,0,10,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,9,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus Sanger476,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,Sanger476,1.00E+07,peritoneum,-,infected,2,10,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,9,9
+blood CD1 mouse strain blood taken 2 hours after infection with S. aureus USA300,Mus musculus,total RNA,CD1,male,0.50-0.66,Staphylococcus aureus,USA300,1.00E+07,peritoneum,-,infected,2,10,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,9,9
+blood CD1 mouse strain blood taken 24 hours after infection with E. coli,Mus musculus,total RNA,CD1,male,0.50-0.66,Escherichia  coli,O18:K1:H7,6.00E+04,peritoneum,-,infected,24,10,9
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,43,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,49,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,44,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,70,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,40,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,91,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,25,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,62,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,70,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,32,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,54,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,74,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,79,Escherichia coli,Lung,2034
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,41,Escherichia coli,Urinary tract,2287
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,82,Staphylococcus aureus,Cardiac-Endocarditis,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,70,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,41,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,81,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,81,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,55,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,69,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,44,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,51,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,47,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,36,Staphylococcus aureus,Cardiac,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,54,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,55,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,42,Staphylococcus aureus,Unknown,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,52,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,55,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,52,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Unknown,Female,51,Staphylococcus aureus,Lung,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,40,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,60,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,59,Staphylococcus aureus,Vascular catheter,2287
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,58,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,77,Staphylococcus aureus,Urinary tract,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,91,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,white,Female,75,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,black,Male,58,Staphylococcus aureus,vascular catheter,2034
+blood human NOT infected,Homo sapiens,total RNA,Black,Male,27,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,29,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Male,30,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,unknown,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Male,23,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,50,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,23,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,44,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,28,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Female,30,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Male,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Female,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Female,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,43,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Male,59,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Female,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,24,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Unknown,Male,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,53,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Female,45,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,23,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,26,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Male,27,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Asian,Female,43,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,Black,Female,32,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,unknown,Female,25,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,black,Female,43,-,-,2287
+blood human NOT infected,Homo sapiens,total RNA,White,Female,42,-,-,2287
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,52,Staphylococcus aureus and Streptococcus pneumoniae,lung,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,38,Staphylococcus aureus,cardiac,2034
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,24,Staphylococcus aureus,urinary tract,2287
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,74,Staphylococcus aureus,Skin or Skin Structure,2739
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Male,70,Staphylococcus aureus,Skin or Skin Structure,2739
+blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,61,Staphylococcus aureus,CNS,2739
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Male,65,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,63,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,81,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,Black,Female,69,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,total RNA,White,Female,55,Escherichia coli,Urinary Tract,2739

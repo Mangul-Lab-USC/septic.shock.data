@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Wolfgang</First><Last>Raffelsberger</Last></Person>
+    <Email>w.raffelsberger@unistra.fr</Email>
+    <Laboratory>LBGI</Laboratory>
+    <Department>DBGS</Department>
+    <Organization>IGBMC</Organization>
+    <Address>
+      <Line>1 rue Laurent Fries</Line>
+      <City>Illkirch/Strasbourg</City>
+      <Zip-Code>67404</Zip-Code>
+      <Country>France</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Pascal</First><Last>Bilbault</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Thomas</First><Last>Lavaux</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Estelle</First><Last>Zink</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Xavier</First><Last>Delabranche</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Feraht</First><Last>Meziani</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Marie</First><Middle>P</Middle><Last>Gaub</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Pierre</First><Last>Oudet</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Francis</First><Last>Schneider</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM820371">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient01_t0</Title>
+    <Accession database="GEO">GSM820371</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820371/suppl/GSM820371_FSR_P01_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830309" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820371-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820372">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient02_t0</Title>
+    <Accession database="GEO">GSM820372</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+40-59
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820372/suppl/GSM820372_FSR_P02_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830311" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820372-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820373">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient03_t0</Title>
+    <Accession database="GEO">GSM820373</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+40-59
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820373/suppl/GSM820373_FSR_P03_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830313" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820373-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820374">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient04_t0</Title>
+    <Accession database="GEO">GSM820374</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820374/suppl/GSM820374_FSR_P04_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830315" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820374-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820375">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient05_t0</Title>
+    <Accession database="GEO">GSM820375</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+40-59
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820375/suppl/GSM820375_FSR_P05_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830317" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820375-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820376">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient06_t0</Title>
+    <Accession database="GEO">GSM820376</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+20-39
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820376/suppl/GSM820376_FSR_P06_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830319" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820376-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820377">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient07_t0</Title>
+    <Accession database="GEO">GSM820377</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820377/suppl/GSM820377_FSR_P07_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830321" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820377-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820378">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient08_t0</Title>
+    <Accession database="GEO">GSM820378</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+&gt; 80
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820378/suppl/GSM820378_FSR_P08_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830323" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820378-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820379">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient09_t0</Title>
+    <Accession database="GEO">GSM820379</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+&gt; 80
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820379/suppl/GSM820379_FSR_P09_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830325" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820379-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820380">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient10_t0</Title>
+    <Accession database="GEO">GSM820380</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+&gt; 80
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820380/suppl/GSM820380_FSR_P10_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830327" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820380-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820381">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient11_t0</Title>
+    <Accession database="GEO">GSM820381</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820381/suppl/GSM820381_FSR_P11_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830329" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820381-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820382">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient12_t0</Title>
+    <Accession database="GEO">GSM820382</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+F
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820382/suppl/GSM820382_FSR_P12_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830331" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820382-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820383">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient13_t0</Title>
+    <Accession database="GEO">GSM820383</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820383/suppl/GSM820383_FSR_P13_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830333" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820383-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820384">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient14_t0</Title>
+    <Accession database="GEO">GSM820384</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820384/suppl/GSM820384_FSR_P14_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830335" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820384-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820385">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient15_t0</Title>
+    <Accession database="GEO">GSM820385</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+20-39
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820385/suppl/GSM820385_FSR_P15_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830337" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820385-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820386">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient16_t0</Title>
+    <Accession database="GEO">GSM820386</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820386/suppl/GSM820386_FSR_P16_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830339" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820386-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820387">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient17_t0</Title>
+    <Accession database="GEO">GSM820387</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+negative
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+&gt; 80
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820387/suppl/GSM820387_FSR_P17_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830341" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820387-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820388">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient18_t0</Title>
+    <Accession database="GEO">GSM820388</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+&gt; 80
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820388/suppl/GSM820388_FSR_P18_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830343" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820388-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820389">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient19_t0</Title>
+    <Accession database="GEO">GSM820389</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820389/suppl/GSM820389_FSR_P19_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830345" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820389-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM820390">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2017-09-08</Last-Update-Date>
+    </Status>
+    <Title>patient20_t0</Title>
+    <Accession database="GEO">GSM820390</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>blood sample</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Characteristics tag="infection">
+pneumonia
+      </Characteristics>
+      <Characteristics tag="survival">
+positive
+      </Characteristics>
+      <Characteristics tag="Sex">
+M
+      </Characteristics>
+      <Characteristics tag="age">
+60-79
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood samples were taken from patients. Total RNA used for microarray studies was isolated using a PAXgene Blood RNA kit (Quiagen, Valencia, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA was prepared from the total RNA according to the Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2008, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, cRNA was hybridized on Human GeneChip HG-U133 Plus 2.0 kit (Affymetrix, Santa Clara, CA) and the arrays were washed and stained in the Affymetrix Fluidics Station 450 according to the standard Affymetrix protocol (Expression Analysis Technical Manual Rev. 2, 2005-2007, Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using the Affymetrix GeneChip 3000 7G scanner
+    </Scan-Protocol>
+    <Description>
+blood sample
+    </Description>
+    <Data-Processing>
+RMA; quality control was performed using RReportGenerator (Raffelsberger et al, 2008, PMID:18037684)
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM820nnn/GSM820390/suppl/GSM820390_FSR_P20_U133_2.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM830347" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA (log2 values)</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM820390-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE33118">
+    <Status database="GEO">
+      <Submission-Date>2011-10-20</Submission-Date>
+      <Release-Date>2017-09-08</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Transcriptome of the septic shock</Title>
+    <Accession database="GEO">GSE33118</Accession>
+    <Summary>
+Septic shock by pneumopathy was studied in prospective way in 20 patients and compared to normal blood. Blood samples were taken within 12 hours of diagnosis and the resulting transcritomes were compared to 42 normal control samples (selected samples from series GSE10715, GSE12711, GSE16728 and GSE7400).
+keywords: patient cohort study, septic shock, transcription-profile, blood
+    </Summary>
+    <Overall-Design>
+In total 20 patients were tested before specific treatment and compared to 42 control samples.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Type>Third-party reanalysis</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib1" position="3" />
+    <Contributor-Ref ref="contrib5" position="4" />
+    <Contributor-Ref ref="contrib6" position="5" />
+    <Contributor-Ref ref="contrib7" position="6" />
+    <Contributor-Ref ref="contrib8" position="7" />
+    <Contributor-Ref ref="contrib9" position="8" />
+    <Contributor-Ref ref="contrib10" position="9" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM820371" />
+    <Sample-Ref ref="GSM820372" />
+    <Sample-Ref ref="GSM820373" />
+    <Sample-Ref ref="GSM820374" />
+    <Sample-Ref ref="GSM820375" />
+    <Sample-Ref ref="GSM820376" />
+    <Sample-Ref ref="GSM820377" />
+    <Sample-Ref ref="GSM820378" />
+    <Sample-Ref ref="GSM820379" />
+    <Sample-Ref ref="GSM820380" />
+    <Sample-Ref ref="GSM820381" />
+    <Sample-Ref ref="GSM820382" />
+    <Sample-Ref ref="GSM820383" />
+    <Sample-Ref ref="GSM820384" />
+    <Sample-Ref ref="GSM820385" />
+    <Sample-Ref ref="GSM820386" />
+    <Sample-Ref ref="GSM820387" />
+    <Sample-Ref ref="GSM820388" />
+    <Sample-Ref ref="GSM820389" />
+    <Sample-Ref ref="GSM820390" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33118/suppl/GSE33118_RAW.tar
+    </Supplementary-Data>
+    <Supplementary-Data type="PDF">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33118/suppl/GSE33118_SepticShock1_affyQC1.pdf.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33118/suppl/GSE33118_complete_dataset.txt.gz
+    </Supplementary-Data>
+    <Relation type="Reanalysis of" target="GSM178549" />
+    <Relation type="Reanalysis of" target="GSM178550" />
+    <Relation type="Reanalysis of" target="GSM178551" />
+    <Relation type="Reanalysis of" target="GSM178552" />
+    <Relation type="Reanalysis of" target="GSM178553" />
+    <Relation type="Reanalysis of" target="GSM270834" />
+    <Relation type="Reanalysis of" target="GSM270835" />
+    <Relation type="Reanalysis of" target="GSM270836" />
+    <Relation type="Reanalysis of" target="GSM270837" />
+    <Relation type="Reanalysis of" target="GSM270838" />
+    <Relation type="Reanalysis of" target="GSM270839" />
+    <Relation type="Reanalysis of" target="GSM270840" />
+    <Relation type="Reanalysis of" target="GSM270841" />
+    <Relation type="Reanalysis of" target="GSM270842" />
+    <Relation type="Reanalysis of" target="GSM270843" />
+    <Relation type="Reanalysis of" target="GSM270844" />
+    <Relation type="Reanalysis of" target="GSM318862" />
+    <Relation type="Reanalysis of" target="GSM318866" />
+    <Relation type="Reanalysis of" target="GSM318870" />
+    <Relation type="Reanalysis of" target="GSM318874" />
+    <Relation type="Reanalysis of" target="GSM318878" />
+    <Relation type="Reanalysis of" target="GSM318886" />
+    <Relation type="Reanalysis of" target="GSM318890" />
+    <Relation type="Reanalysis of" target="GSM318898" />
+    <Relation type="Reanalysis of" target="GSM419145" />
+    <Relation type="Reanalysis of" target="GSM419146" />
+    <Relation type="Reanalysis of" target="GSM419147" />
+    <Relation type="Reanalysis of" target="GSM419148" />
+    <Relation type="Reanalysis of" target="GSM419149" />
+    <Relation type="Reanalysis of" target="GSM419150" />
+    <Relation type="Reanalysis of" target="GSM419151" />
+    <Relation type="Reanalysis of" target="GSM419152" />
+    <Relation type="Reanalysis of" target="GSM419153" />
+    <Relation type="Reanalysis of" target="GSM419154" />
+    <Relation type="Reanalysis of" target="GSM419155" />
+    <Relation type="Reanalysis of" target="GSM419156" />
+    <Relation type="Reanalysis of" target="GSM419157" />
+    <Relation type="Reanalysis of" target="GSM419158" />
+    <Relation type="Reanalysis of" target="GSM419159" />
+    <Relation type="Reanalysis of" target="GSM419160" />
+    <Relation type="Reanalysis of" target="GSM419161" />
+    <Relation type="Reanalysis of" target="GSM419164" />
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA149365" />
+  </Series>
+
+</MINiML>

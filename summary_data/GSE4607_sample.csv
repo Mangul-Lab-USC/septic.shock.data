@@ -1,0 +1,124 @@
+Source,Organism,Molecule,Dx,survival,day,ptID,DxSurv,PRISM,steroid,organism,infect_site,11kMajorGroups,11kSubGroups
+whole blood,Homo sapiens,total RNA,Control,survivor,1,15_0005,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,15_0003,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,15_0002,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,15_0001,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0037,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0027,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0020,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0019,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0018,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0014,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0013,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0012,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0011,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0009,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,Control,survivor,1,11_0008,Ctrl,n/a,no,none,none,Ctrl,Ctrl
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,04_0005,SepShck_NonSurv,20,yes,Group A Strep,Blood,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,04_0003,SepShck_NonSurv,26,no,Influenza,Lung,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,01_0013,SepShck_NonSurv,n/a,n/a,n/a,n/a,Grp C,Grp C1
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,15_0008,SepShck_NonSurv,22,no,Group A Strep,Blood,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,11_0017,SepShck_NonSurv,20,yes,none,none,Grp C,Grp C1
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,10_0020,SepShck_NonSurv,44,yes,Influenza,Systemic,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,10_0017,SepShck_NonSurv,9,no,CMV,Blood,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,26_260611,SepShck_NonSurv,59,yes,Neisseria,Blood,Grp C,Grp C1
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,1,05_0011,SepShck_NonSurv,34,yes,Group B Strep,blood,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,3,04_0003,SepShck_NonSurv,26,yes,Influenza,Lung,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,3,15_0008,SepShck_NonSurv,22,no,Group A Strep,Blood,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,3,11_0017,SepShck_NonSurv,20,yes,none,none,Grp C,Grp C1
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,3,10_0020,SepShck_NonSurv,44,yes,Influenza,Systemic,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,nonsurvivor,3,10_0017,SepShck_NonSurv,9,no,CMV,Blood,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,12_0001,SepShck_Surv,6,no,Strep Pneumo,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,02_0001,SepShck_Surv,21,yes,none,none,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0030,SepShck_Surv,n/a,yes,Candida albicans,Blood,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0026,SepShck_Surv,20,no,none,none,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0025,SepShck_Surv,13,no,Strep viridans,Blood,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0024,SepShck_Surv,5,no,Staph Aureus,Lung,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0021,SepShck_Surv,5,no,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0014,SepShck_Surv,20,no,Candida albicans,Lung,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,15_0007,SepShck_Surv,25,no,none,none,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,15_0004,SepShck_Surv,7,no,none,Lung,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,05_0007,SepShck_Surv,22,yes,Group A Strep,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,11_0029,SepShck_Surv,10,no,Neisseria,Blood,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,11_0010,SepShck_Surv,21,no,none,none,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,11_0001,SepShck_Surv,34,yes,Rotavirus,Colitis,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,27_70603,SepShck_Surv,15,no,Staph Epi,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,10_0012,SepShck_Surv,25,no,E coli,Urine,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,10_0001,SepShck_Surv,22,no,mult  gram neg,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,09_0002,SepShck_Surv,21,yes,Neisseria,Blood,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,09_0001,SepShck_Surv,22,no,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,07_0002,SepShck_Surv,17,no,Varicella,Systemic,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,06_0006,SepShck_Surv,17,yes,none,Lung,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,06_0004,SepShck_Surv,12,no,Group B Strep,Blood and CSF,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,06_0003,SepShck_Surv,n/a,no,none,none,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,06_0001,SepShck_Surv,18,yes,mult  gram neg,Blood,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,05_0010,SepShck_Surv,9,no,Strep Viridans,Peritoneal fluid,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,05_0008,SepShck_Surv,12,yes,Enterococcus,Blood,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,05_0006,SepShck_Surv,12,yes,none,none,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,04_0002,SepShck_Surv,16,yes,E coli,Blood,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,01_0030,SepShck_Surv,n/a,yes,Candida albicans,Blood,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,01_0022,SepShck_Surv,24,no,none,none,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,01_0018,SepShck_Surv,16,no,Influenza,Systemic,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,15_0007,SepShck_Surv,25,no,none,none,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,15_0004,SepShck_Surv,7,no,none,Lung,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,05_0007,SepShck_Surv,22,yes,Group A Strep,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,11_0029,SepShck_Surv,10,no,Neisseria,Blood,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,10_0011,SepShck_Surv,26,yes,none,Lung,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,07_0001,SepShck_Surv,26,no,Neisseria,CSF,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,06_0006,SepShck_Surv,17,yes,none,Lung,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,06_0004,SepShck_Surv,12,no,Group B Strep,Blood and CSF,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,06_0003,SepShck_Surv,n/a,no,none,none,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,05_0010,SepShck_Surv,9,no,Strep Viridans,Peritoneal fluid,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,02_0001,SirsReslv,21,yes,none,none,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,01_0026,SirsReslv,20,no,none,none,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,01_0025,SepShck_Surv,13,no,Strep viridans,Blood,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,01_0024,SirsReslv,5,no,Staph Aureus,Lung,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,11_0006,SirsReslv,2,yes,Staph Aureus,Cellulitis,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,10_0001,SepShck_Surv,22,no,mult  gram neg,Blood,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,11_0021,SirsReslv,4,no,none,Lung,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,11_0016,SirsReslv,21,no,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,11_0001,SirsReslv,34,yes,Rotavirus,Colitis,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,10_0007,SirsReslv,10,yes,Eikenella,Retropharyngeal abscess,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,07_0002,SirsReslv,17,no,Varicella,Systemic,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,06_0001,SirsReslv,18,yes,mult  gram neg,Blood,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,05_0008,SirsReslv,12,yes,Enterococcus,Blood,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,05_0006,SepShck_Surv,12,yes,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,nonsurvivor,1,11_0036,Sirs_NonSurv,n/a,no,none,none,NC,NC
+whole blood,Homo sapiens,total RNA,SIRS,nonsurvivor,3,11_0036,Sirs_NonSurv,n/a,no,none,none,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,04_0004,SepShck_Surv,11,yes,Staph Aureus,Blood,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,05_0003,SepShck_Surv,13,no,Strep Pneumo,"Blood, CSF, and Lung",Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,05_0002,Sirs_Surv,2,yes,H. flu,Lung,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,01_0027,Sirs_Surv,9,yes,Pseudomonas,Lung,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,01_0019,SepShck_Surv,23,no,Herpes simplex,Systemic,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0006,Sirs_Surv,2,yes,Staph Aureus,Cellulitis,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0031,Sirs_Surv,n/a,no,none,none,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0024,Sirs_Surv,10,yes,none,Lung,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0023,Sirs_Surv,7,no,H. flu,Blood and CSF,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0022,Sirs_Surv,14,yes,Neisseria,Blood and CSF,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0021,Sirs_Surv,4,no,Enterobacter,Lung,Grp C,Grp C3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0016,Sirs_Surv,21,no,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0015,Sirs_Surv,n/a,no,Staph Aureus,Lung,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,10_0002,Sirs_Surv,28,no,Enterococcus,Urine,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0004,Sirs_Surv,n/a,no,Staph Epi,Peritoneal fluid,NC,NC
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,11_0003,Sirs_Surv,n/a,no,Group B Strep,Blood and CSF,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,10_0015,Sirs_Surv,6,no,Candida albicans,Blood,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,10_0010,SepShck_Surv,n/a,yes,Staph Aureus,Toxic shock syndrome,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,10_0007,Sirs_Surv,10,no,Eikenella,Retropharyngeal abscess,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,10_0006,Sirs_Surv,13,no,none,Lung,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,10_0005,SepShck_Surv,6,no,none,none,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,1,10_0004,SepShck_Surv,10,no,Rickettsia,Systemic,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,07_0005,Sirs_Surv,4,no,none,Appendicitis,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,1,06_0002,Sirs_Surv,n/a,no,none,none,Grp B,Grp B4
+whole blood,Homo sapiens,total RNA,SIRS_resolved,survivor,3,01_0027,SirsReslv,9,yes,Pseudomonas,Lung,Grp A,Grp A3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,01_0019,SepShck_Surv,23,no,Herpes simplex,Systemic,Grp A,Grp A4
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,10_0002,Sirs_Surv,28,no,Enterococcus,Urine,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,11_0015,Sirs_Surv,17,yes,Staph Aureus,Lung,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,10_0013,SepShck_Surv,11,yes,C. diff.,Colitis,Grp C,Grp C2
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,10_0012,SepShck_Surv,25,no,E coli,Urine,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,10_0006,Sirs_Surv,13,no,none,Lung,Grp A,Grp A2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,10_0004,Sirs_Surv,10,yes,Rickettsia,Systemic,Grp A,Grp A1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,09_0002,SepShck_Surv,21,yes,Neisseria,Blood,Grp B,Grp B2
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,09_0001,Sirs_Surv,22,no,none,none,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,07_0005,Sirs_Surv,4,no,none,Appendicitis,Grp B,Grp B3
+whole blood,Homo sapiens,total RNA,SIRS,survivor,3,25_70603_sepsis,Sirs_Surv,n/a,no,none,none,Grp B,Grp B1
+whole blood,Homo sapiens,total RNA,SepticShock,survivor,3,04_0004,SepShck_Surv,11,yes,Staph Aureus,Blood,Grp C,Grp C2

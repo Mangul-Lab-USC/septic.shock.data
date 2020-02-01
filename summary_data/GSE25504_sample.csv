@@ -1,0 +1,171 @@
+Source,Organism,Molecule,neonate,gender,tissue,on antibiotics at time of sample,bloodculture result,other positive results,corrected gestational age (weeks+days),birthweight (g)
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,34+6,1715
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,40+6,3250
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,40+5,3440
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,41+6,2990
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,36+5,2370
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,39+6,2940
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,40+0,2800
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,"umbilical swab grew anaerobes, coliforms, Saureus and gp B strep",42+5,3980
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,42+5,3980
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,41+6,3500
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,39+6,4590
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,41+5,4140
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,39+5,3020
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,39+5,4120
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,no. blood culture 3 days previously negative,41+6,4270
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,44+1,3309
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,42+1,3620
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,39+4,2225
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,40+2,3510
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,42+6,4300
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,41+0,4370
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,well. 3 days later had Saureus in wound swab.,37+0,1880
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,41+6,3630
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,40+1,3440
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,41+4,3500
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,43+1,3820
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,34+2,2200
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,37+5,3700
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,42+6,4301
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,30+3,930
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,No,na,No,33+6,670
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,35+2,1115
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,35+5,1600
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,32+3,1225
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,No,na,No,42+0,4200
+peripheral blood,Homo sapiens,total RNA,control,Female,peripheral blood,Yes,Coagulase negative staphylococcus,"coag neg staph long line tip next day, previous ureaplasma,,no previous positive blood cultures",32+5,720
+peripheral blood,Homo sapiens,total RNA,control,Male,peripheral blood,Yes,candida,"klebsiella in peritoneal fluid and ET secretions, NEC 1 week previously, candida in blood 4 days previously",30+5,1380
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,No,negative,CMV in blood and urine,36+4,890
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,positive (enterobacter cloacae),enterobacter cloacae (also 1 week post sample),30+1,1230
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,Positive (E faecium),Blood cultures 3 days before and 2 days after also E faecium,34+1,1405
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,Positive (coag neg staph),CSF coag neg staph.  Also from day before long line tip and BC grew coag neg staph,29+3,720
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,positive (coag neg staph),CSF and urine negative,28+2,850
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,No,Positive (Group B Strep),CSF negative,38+1,3900
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,Positive (pseudomonas aeuruginosa and coag neg staph),"Blood culture positive for pseudomonas and coag neg staph, coag neg staph also present in blood cultures x 2 in previous week and also the next day",31+3,785
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,Coagulase negative staphylococcus,2 blood cultures coag neg staph,30+0,1200
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,No,Positive(group B strep),CSF coag neg staph,25+3,660
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,No,Positive(coag neg staph),"long line tip coag neg staph, previous day ETT tip and ETS Ecoli/coliforms",27+2,955
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,negative,aspirate of abscess grew coag neg staph,30+0,720
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,Coagulase negative staphylococcus,No,30+2,983
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,Postive (coag neg staph),blood culture 5 days previous grew coag neg staph,29+5,983
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,Positive (E faecalis),blood culture 2 and 4 days previously and next day also enterococcus,29+2,1100
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,Coagulase negative staphylococcus,No,27+4,1140
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,Positive (coag neg staph),No,27+2,870
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,Enterococcus faecalis,No,28+5,1100
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,negative,1cfu Klebsiells in CSF,29+1,840
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,Yes,positive(coag neg staph),"blood culture 3 days previous 2 strains coag neg staph, line tip 2 days previous mixed coag neg staph",31+0,450
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,No,Coagulase negative staphylococcus,No,31+3,820
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,positive(enterococcus),"csf 1 no growth, 2 coag neg staph",31+2,1335
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,positive(coag neg staph),"2 separate blood cultures coag neg staph, csf no growth",27+6,1130
+peripheral blood,Homo sapiens,total RNA,infected,Female,peripheral blood,Yes,positive(kelbsiella oxytoca),not stated,31+5,820
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,positive(E coli),csf no growth,37+0,2970
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,positive(coag neg staph),"csf no growth, note CoNeg Staph resistant to fluclox and gent which baby on further deterioration and repeat sample though…",33+1,1070
+peripheral blood,Homo sapiens,total RNA,infected,Male,peripheral blood,No,Coagulase negative staphylococcus,No,37+0,1070
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+3,Male,No,negative,no,4240
+peripheral blood,Homo sapiens,total RNA,peripheral blood,38+3,Female,No,na,no,2970
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+1,Male,No,na,umbilical swab grew proteus (may represent colonisation),3270
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+6,Female,No,negative,"CSF: enterovirus on PCR.  CSF also grew coag neg staph, CSF WCC 300, RBC 9",2150
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Female,No,negative,"yes CSF grew Listeria monocytogenes, CSF white cell count 551, RBC 119, urine no growth",3180
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+4,Male,No,n/a,1120
+peripheral blood,Homo sapiens,total RNA,peripheral blood,30+5,Male,No,n/a,890
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+2,Male,No,n/a,1515
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+3,Male,No,n/a,820
+peripheral blood,Homo sapiens,total RNA,peripheral blood,32+5,Male,No,n/a,1875
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+3,Male,No,n/a,855
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+3,Female,Yes,Enterococcus,810
+peripheral blood,Homo sapiens,total RNA,peripheral blood,33+1,Male,No,Enterococcus & Staph. warneri,BC next day grew Staphylococcus warneri,1385
+peripheral blood,Homo sapiens,total RNA,peripheral blood,27+5,Male,No,Pseudomonas aeruginosa & Coagulase -ve Staph. aureus,"Next day, peritoneal swab enterococcus, pseudomonas aeruginosa and klebsiella oxytoca",680
+peripheral blood,Homo sapiens,total RNA,peripheral blood,39+6,Female,No,Group B Strep.,690
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+6,Male,Yes,Staph. epidermidis,grew yeasts 2 days later,1040
+peripheral blood,Homo sapiens,total RNA,peripheral blood,39+0,Male,Yes,Coagulase -ve Staph. aureus,1255
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+6,Female,Yes,E. coli,880
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+4,Male,No,Serratia marcescens,1490
+peripheral blood,Homo sapiens,total RNA,peripheral blood,36+2,Male,Yes,Serratia marcescens,1490
+peripheral blood,Homo sapiens,total RNA,peripheral blood,36+2,Female,Yes,n/a,Coagulase -ve Staph. aureus previous day,1390
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+5,Male,Yes,n/a,"Enterobacter cloacae, 6 days previously",1490
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+3,Male,No,n/a,Rhinovirus PCR +ve,1920
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+5,Male,No,CMV,1290
+peripheral blood,Homo sapiens,total RNA,peripheral blood,32+2,Male,No,n/a,Rhinovirus PCR +ve,855
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+6,Male,No,na,No,1715
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+6,Male,No,na,No,3250
+peripheral blood,Homo sapiens,total RNA,peripheral blood,36+5,Female,No,na,No,2370
+peripheral blood,Homo sapiens,total RNA,peripheral blood,42+5,Male,No,na,"umbilical swab grew anaerobes, coliforms, Saureus and gp B strep",3980
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+5,Female,No,na,No,4140
+peripheral blood,Homo sapiens,total RNA,peripheral blood,39+5,Male,No,na,No,3020
+peripheral blood,Homo sapiens,total RNA,peripheral blood,39+5,Male,No,na,No,4120
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+6,Female,No,na,no. blood culture 3 days previously negative,4270
+peripheral blood,Homo sapiens,total RNA,peripheral blood,44+1,Male,No,na,No,3309
+peripheral blood,Homo sapiens,total RNA,peripheral blood,42+1,Female,No,na,No,3620
+peripheral blood,Homo sapiens,total RNA,peripheral blood,39+4,Male,No,na,No,2225
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+2,Male,No,na,No,3510
+peripheral blood,Homo sapiens,total RNA,peripheral blood,42+6,Male,No,na,No,4300
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+0,Male,No,na,No,4370
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+0,Male,No,na,well. 3 days later had Saureus in wound swab.,1880
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+1,Female,No,na,No,3440
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+4,Female,No,na,No,3500
+peripheral blood,Homo sapiens,total RNA,peripheral blood,43+1,Male,No,na,No,3820
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+2,Female,No,na,No,2200
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+5,Male,No,na,No,3700
+peripheral blood,Homo sapiens,total RNA,peripheral blood,30+3,Female,No,na,No,930
+peripheral blood,Homo sapiens,total RNA,peripheral blood,33+6,Female,No,na,No,670
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+2,Male,No,na,No,1115
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+5,Male,No,na,No,1600
+peripheral blood,Homo sapiens,total RNA,peripheral blood,30+5,Male,Yes,candida,"klebsiella in peritoneal fluid and ET secretions, NEC 1 week previously, candida in blood 4 days previously",1380
+peripheral blood,Homo sapiens,total RNA,peripheral blood,30+1,Male,Yes,positive (enterobacter cloacae),enterobacter cloacae (also 1 week post sample),1230
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+1,Female,Yes,Positive (E faecium),Blood cultures 3 days before and 2 days after also E faecium,1405
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+3,Male,Yes,Positive (coag neg staph),CSF coag neg staph.  Also from day before long line tip and BC grew coag neg staph,720
+peripheral blood,Homo sapiens,total RNA,peripheral blood,28+2,Male,No,positive (coag neg staph),CSF and urine negative,850
+peripheral blood,Homo sapiens,total RNA,peripheral blood,38+1,Female,No,Positive (Group B Strep),CSF negative,3900
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+3,Female,Yes,Positive (pseudomonas aeuruginosa and coag neg staph),"Blood culture positive for pseudomonas and coag neg staph, coag neg staph also present in blood cultures x 2 in previous week and also the next day",785
+peripheral blood,Homo sapiens,total RNA,peripheral blood,25+3,Female,No,Positive(group B strep),CSF coag neg staph,660
+peripheral blood,Homo sapiens,total RNA,peripheral blood,27+2,Female,No,Positive(coag neg staph),"long line tip coag neg staph, previous day ETT tip and ETS Ecoli/coliforms",955
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+5,Female,Yes,Postive (coag neg staph),blood culture 5 days previous grew coag neg staph,983
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+2,Male,Yes,Positive (E faecalis),blood culture 2 and 4 days previously and next day also enterococcus,1100
+peripheral blood,Homo sapiens,total RNA,peripheral blood,27+2,Female,Yes,Positive (coag neg staph),No,870
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+0,Male,Yes,positive(coag neg staph),"blood culture 3 days previous 2 strains coag neg staph, line tip 2 days previous mixed coag neg staph",450
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+2,Male,No,positive(enterococcus),"csf 1 no growth, 2 coag neg staph",1335
+peripheral blood,Homo sapiens,total RNA,peripheral blood,27+6,Male,No,positive(coag neg staph),"2 separate blood cultures coag neg staph, csf no growth",1130
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+5,Female,Yes,positive(kelbsiella oxytoca),not stated,820
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+0,Male,No,positive(E coli),csf no growth,2970
+peripheral blood,Homo sapiens,total RNA,peripheral blood,33+1,Male,No,positive(coag neg staph),"csf no growth, note CoNeg Staph resistant to fluclox and gent which baby on further deterioration and repeat sample though…",1070
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+3,Male,No,negative,no,4240
+peripheral blood,Homo sapiens,total RNA,peripheral blood,38+3,Female,No,na,no,2970
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+0,Male,No,na,no,1960
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+6,Female,No,negative,"CSF: enterovirus on PCR.  CSF also grew coag neg staph, CSF WCC 300, RBC 9",2150
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Female,No,negative,"yes CSF grew Listeria monocytogenes, CSF white cell count 551, RBC 119, urine no growth",3180
+peripheral blood,Homo sapiens,total RNA,peripheral blood,24+1,Male,Yes,Coagulase -ve Staph. Aureus,BC next day also coag neg staph and line tip 2 days later.  ETS refer back to sample from 2 days previous where positive for ureaplasma and mycoplasma.,655
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+3,Male,No,Coagulase -ve Staph. Aureus,CSF negative,940
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+1,Male,Yes,Coagulase -ve Staph. Aureus,"long line tip also coag neg staph, coag neg staph from blood culture 6 days previously",1150
+peripheral blood,Homo sapiens,total RNA,peripheral blood,28+3,Female,No,Klebsiella pneumoniae,no,840
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+2,Male,No,Klebsiella oxytoca,csf klebsiella oxytoca but blood stained,1090
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Female,No,negative,no,3480
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+5,Male,No,negative,no,750
+peripheral blood,Homo sapiens,total RNA,peripheral blood,33+0,Female,No,negative,no,1370
+peripheral blood,Homo sapiens,total RNA,peripheral blood,38+0,Male,No,negative,no,3660
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+0,Female,No,negative,"right eye swab coag neg staph (likely colonisation), csf negative",2510
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+0,Male,No,negative,no,3530
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+0,Female,No,negative,no,1510
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+0,Female,No,negative,no,1930
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+0,Male,No,negative,no,2170
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+0,Male,No,negative,no,2210
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+0,Male,No,negative,no,2725
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+0,Male,No,negative,no,3615
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+0,Male,No,negative,no,1840
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+0,Female,No,negative,"no, 2 days later had serratia marcesens in ET secretions",1490
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Male,No,negative,no,4860
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+0,Female,No,negative,no,3360
+peripheral blood,Homo sapiens,total RNA,peripheral blood,30+4,Male,No,negative,over previous 5 days had coliforms and S.aureus in NP/ET secretions,700
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+0,Male,No,negative,no,1130
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+0,Male,No,negative,no,1345
+peripheral blood,Homo sapiens,total RNA,peripheral blood,29+4,Male,No,negative,no,1750
+peripheral blood,Homo sapiens,total RNA,peripheral blood,36+0,Male,No,negative,no,2550
+peripheral blood,Homo sapiens,total RNA,peripheral blood,35+0,Female,No,negative,no,2230
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+0,Female,No,negative,no,3080
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Female,No,negative,no,4520
+peripheral blood,Homo sapiens,total RNA,peripheral blood,37+0,Female,No,negative,no,2985
+peripheral blood,Homo sapiens,total RNA,peripheral blood,41+1,Male,No,negative,no,3600
+peripheral blood,Homo sapiens,total RNA,peripheral blood,31+2,Female,No,negative,no,1210
+peripheral blood,Homo sapiens,total RNA,peripheral blood,26+4,Female,No,negative,ET tip and eye swabs positive for Ecoli,970
+peripheral blood,Homo sapiens,total RNA,peripheral blood,40+1,Male,No,negative,no,3680
+peripheral blood,Homo sapiens,total RNA,peripheral blood,34+0,Female,No,negative,no,2220

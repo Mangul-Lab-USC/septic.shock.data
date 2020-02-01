@@ -1,0 +1,3702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Matteo</First><Last>Barcella</Last></Person>
+    <Email>matteo.barcella@unimi.it</Email>
+    <Organization>Università di Milano</Organization>
+    <Address>
+      <Line>Viale Ortles 22/4</Line>
+      <City>Milano</City>
+      <Zip-Code>20139</Zip-Code>
+      <Country>Italy</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization>GEO</Organization>
+    <Address>
+      <City></City>
+      <Country>USA</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Daniele</First><Last>Braga</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Cristina</First><Last>Barlassina</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL10999">
+    <Status database="GEO">
+      <Submission-Date>2010-09-29</Submission-Date>
+      <Release-Date>2010-09-29</Release-Date>
+      <Last-Update-Date>2019-02-21</Last-Update-Date>
+    </Status>
+    <Title>Illumina Genome Analyzer IIx (Homo sapiens)</Title>
+    <Accession database="GEO">GPL10999</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Platform iid="GPL16791">
+    <Status database="GEO">
+      <Submission-Date>2013-03-14</Submission-Date>
+      <Release-Date>2013-03-14</Release-Date>
+      <Last-Update-Date>2019-03-27</Last-Update-Date>
+    </Status>
+    <Title>Illumina HiSeq 2500 (Homo sapiens)</Title>
+    <Accession database="GEO">GPL16791</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Sample iid="GSM2992274">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E04T1</Title>
+    <Accession database="GEO">GSM2992274</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient1</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E04
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519079" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683482" />
+  </Sample>
+
+  <Sample iid="GSM2992275">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E04T2</Title>
+    <Accession database="GEO">GSM2992275</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient1</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E04
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519078" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683483" />
+  </Sample>
+
+  <Sample iid="GSM2992276">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E07T1</Title>
+    <Accession database="GEO">GSM2992276</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient1</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E07
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519077" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683484" />
+  </Sample>
+
+  <Sample iid="GSM2992277">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E07T2</Title>
+    <Accession database="GEO">GSM2992277</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient1</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E07
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519076" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683485" />
+  </Sample>
+
+  <Sample iid="GSM2992278">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E15T1</Title>
+    <Accession database="GEO">GSM2992278</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient2</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E15
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519075" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683486" />
+  </Sample>
+
+  <Sample iid="GSM2992279">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E15T2</Title>
+    <Accession database="GEO">GSM2992279</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient2</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E15
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519074" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683487" />
+  </Sample>
+
+  <Sample iid="GSM2992280">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E16T1</Title>
+    <Accession database="GEO">GSM2992280</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E16
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519073" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683488" />
+  </Sample>
+
+  <Sample iid="GSM2992281">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E16T2</Title>
+    <Accession database="GEO">GSM2992281</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E16
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519086" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683489" />
+  </Sample>
+
+  <Sample iid="GSM2992282">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E17T1</Title>
+    <Accession database="GEO">GSM2992282</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient4</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E17
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519087" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683490" />
+  </Sample>
+
+  <Sample iid="GSM2992283">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E17T2</Title>
+    <Accession database="GEO">GSM2992283</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient4</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E17
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519022" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683491" />
+  </Sample>
+
+  <Sample iid="GSM2992284">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E18T1</Title>
+    <Accession database="GEO">GSM2992284</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient2</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E18
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519023" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683492" />
+  </Sample>
+
+  <Sample iid="GSM2992285">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E18T2</Title>
+    <Accession database="GEO">GSM2992285</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient2</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E18
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519025" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683493" />
+  </Sample>
+
+  <Sample iid="GSM2992286">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E26T1</Title>
+    <Accession database="GEO">GSM2992286</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient5</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E26
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519026" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683494" />
+  </Sample>
+
+  <Sample iid="GSM2992287">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E26T2</Title>
+    <Accession database="GEO">GSM2992287</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient5</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E26
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519088" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683495" />
+  </Sample>
+
+  <Sample iid="GSM2992288">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E32T1</Title>
+    <Accession database="GEO">GSM2992288</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E32
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519021" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683496" />
+  </Sample>
+
+  <Sample iid="GSM2992289">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E32T2</Title>
+    <Accession database="GEO">GSM2992289</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E32
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519042" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683497" />
+  </Sample>
+
+  <Sample iid="GSM2992290">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E33T1</Title>
+    <Accession database="GEO">GSM2992290</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient6</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E33
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519072" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683498" />
+  </Sample>
+
+  <Sample iid="GSM2992291">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>E33T2</Title>
+    <Accession database="GEO">GSM2992291</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient6</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E33
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519071" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683499" />
+  </Sample>
+
+  <Sample iid="GSM2992292">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E40T1</Title>
+    <Accession database="GEO">GSM2992292</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient7</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E40
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519024" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683500" />
+  </Sample>
+
+  <Sample iid="GSM2992293">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E40T2</Title>
+    <Accession database="GEO">GSM2992293</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient7</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E40
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519027" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683501" />
+  </Sample>
+
+  <Sample iid="GSM2992294">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E41T1</Title>
+    <Accession database="GEO">GSM2992294</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E41
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519070" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683502" />
+  </Sample>
+
+  <Sample iid="GSM2992295">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>E41T2</Title>
+    <Accession database="GEO">GSM2992295</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+E41
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519063" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683503" />
+  </Sample>
+
+  <Sample iid="GSM2992296">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G01T1</Title>
+    <Accession database="GEO">GSM2992296</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient9</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G01
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519064" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683504" />
+  </Sample>
+
+  <Sample iid="GSM2992297">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G01T2</Title>
+    <Accession database="GEO">GSM2992297</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient9</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G01
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519069" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683505" />
+  </Sample>
+
+  <Sample iid="GSM2992298">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G07T1</Title>
+    <Accession database="GEO">GSM2992298</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient4</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G07
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519068" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683506" />
+  </Sample>
+
+  <Sample iid="GSM2992299">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G07T2</Title>
+    <Accession database="GEO">GSM2992299</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient4</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G07
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519067" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683507" />
+  </Sample>
+
+  <Sample iid="GSM2992300">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G08T1</Title>
+    <Accession database="GEO">GSM2992300</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient10</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G08
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519066" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683508" />
+  </Sample>
+
+  <Sample iid="GSM2992301">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G08T2</Title>
+    <Accession database="GEO">GSM2992301</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient10</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G08
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL10999" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina Genome Analyzer IIx</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519065" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683509" />
+  </Sample>
+
+  <Sample iid="GSM2992302">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G11T1</Title>
+    <Accession database="GEO">GSM2992302</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient5</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G11
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519062" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683510" />
+  </Sample>
+
+  <Sample iid="GSM2992303">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G11T2</Title>
+    <Accession database="GEO">GSM2992303</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient5</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G11
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519061" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683511" />
+  </Sample>
+
+  <Sample iid="GSM2992304">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G12T1</Title>
+    <Accession database="GEO">GSM2992304</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient11</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G12
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519060" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683512" />
+  </Sample>
+
+  <Sample iid="GSM2992305">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G12T2</Title>
+    <Accession database="GEO">GSM2992305</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient11</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G12
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519059" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683513" />
+  </Sample>
+
+  <Sample iid="GSM2992306">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G23T1</Title>
+    <Accession database="GEO">GSM2992306</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient6</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G23
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519058" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683514" />
+  </Sample>
+
+  <Sample iid="GSM2992307">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G23T2</Title>
+    <Accession database="GEO">GSM2992307</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient6</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G23
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519057" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683515" />
+  </Sample>
+
+  <Sample iid="GSM2992308">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G28T1</Title>
+    <Accession database="GEO">GSM2992308</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient7</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G28
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519056" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683516" />
+  </Sample>
+
+  <Sample iid="GSM2992309">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G28T2</Title>
+    <Accession database="GEO">GSM2992309</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient7</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G28
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519055" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683517" />
+  </Sample>
+
+  <Sample iid="GSM2992310">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G29T1</Title>
+    <Accession database="GEO">GSM2992310</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G29
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519054" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683518" />
+  </Sample>
+
+  <Sample iid="GSM2992311">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G29T2</Title>
+    <Accession database="GEO">GSM2992311</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G29
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519053" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683519" />
+  </Sample>
+
+  <Sample iid="GSM2992312">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G33T1</Title>
+    <Accession database="GEO">GSM2992312</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient9</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G33
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519052" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683520" />
+  </Sample>
+
+  <Sample iid="GSM2992313">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G33T2</Title>
+    <Accession database="GEO">GSM2992313</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient9</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G33
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519051" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683521" />
+  </Sample>
+
+  <Sample iid="GSM2992314">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G34T1</Title>
+    <Accession database="GEO">GSM2992314</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient10</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G34
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519050" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683522" />
+  </Sample>
+
+  <Sample iid="GSM2992315">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G34T2</Title>
+    <Accession database="GEO">GSM2992315</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient10</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G34
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519049" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683523" />
+  </Sample>
+
+  <Sample iid="GSM2992316">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G35T1</Title>
+    <Accession database="GEO">GSM2992316</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient12</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G35
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519048" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683524" />
+  </Sample>
+
+  <Sample iid="GSM2992317">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G35T2</Title>
+    <Accession database="GEO">GSM2992317</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient12</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G35
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519047" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683525" />
+  </Sample>
+
+  <Sample iid="GSM2992318">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G39T1</Title>
+    <Accession database="GEO">GSM2992318</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient11</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G39
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519046" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683526" />
+  </Sample>
+
+  <Sample iid="GSM2992319">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G39T2</Title>
+    <Accession database="GEO">GSM2992319</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient11</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G39
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519045" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683527" />
+  </Sample>
+
+  <Sample iid="GSM2992320">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G41T1</Title>
+    <Accession database="GEO">GSM2992320</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient12</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G41
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519044" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683528" />
+  </Sample>
+
+  <Sample iid="GSM2992321">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G41T2</Title>
+    <Accession database="GEO">GSM2992321</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient12</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G41
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519043" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683529" />
+  </Sample>
+
+  <Sample iid="GSM2992322">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G42T1</Title>
+    <Accession database="GEO">GSM2992322</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient13</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G42
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519041" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683530" />
+  </Sample>
+
+  <Sample iid="GSM2992323">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G42T2</Title>
+    <Accession database="GEO">GSM2992323</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient13</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G42
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519040" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683531" />
+  </Sample>
+
+  <Sample iid="GSM2992324">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G43T1</Title>
+    <Accession database="GEO">GSM2992324</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient13</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G43
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519039" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683532" />
+  </Sample>
+
+  <Sample iid="GSM2992325">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G43T2</Title>
+    <Accession database="GEO">GSM2992325</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient13</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G43
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519038" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683533" />
+  </Sample>
+
+  <Sample iid="GSM2992326">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G44T1</Title>
+    <Accession database="GEO">GSM2992326</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient14</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G44
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519037" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683534" />
+  </Sample>
+
+  <Sample iid="GSM2992327">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G44T2</Title>
+    <Accession database="GEO">GSM2992327</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient14</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G44
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519036" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683535" />
+  </Sample>
+
+  <Sample iid="GSM2992328">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G45T1</Title>
+    <Accession database="GEO">GSM2992328</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient15</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G45
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519035" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683536" />
+  </Sample>
+
+  <Sample iid="GSM2992329">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G45T2</Title>
+    <Accession database="GEO">GSM2992329</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient15</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G45
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519034" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683537" />
+  </Sample>
+
+  <Sample iid="GSM2992330">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G47T1</Title>
+    <Accession database="GEO">GSM2992330</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T1 patient14</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G47
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519033" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683538" />
+  </Sample>
+
+  <Sample iid="GSM2992331">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G47T2</Title>
+    <Accession database="GEO">GSM2992331</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Not Responder T2 patient14</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G47
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+NR
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519032" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683539" />
+  </Sample>
+
+  <Sample iid="GSM2992332">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G49T1</Title>
+    <Accession database="GEO">GSM2992332</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient16</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G49
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519031" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683540" />
+  </Sample>
+
+  <Sample iid="GSM2992333">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>G49T2</Title>
+    <Accession database="GEO">GSM2992333</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient16</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G49
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519030" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683541" />
+  </Sample>
+
+  <Sample iid="GSM2992334">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G51T1</Title>
+    <Accession database="GEO">GSM2992334</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T1 patient17</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G51
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T1
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519029" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683542" />
+  </Sample>
+
+  <Sample iid="GSM2992335">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2018-12-03</Last-Update-Date>
+    </Status>
+    <Title>G51T2</Title>
+    <Accession database="GEO">GSM2992335</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Responder T2 patient17</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Whole blood cells collected from patient after septic shock
+      </Characteristics>
+      <Characteristics tag="patient">
+G51
+      </Characteristics>
+      <Characteristics tag="timepoint">
+T2
+      </Characteristics>
+      <Characteristics tag="clinical classification">
+R
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Peripheral blood was collected in EDTA tubes at T1 and T2 and stored at -20°C after adding 400µl of 2X Denaturing solution (Ambion, USA).Total RNA was extracted from 800 µl of blood with MirVana Paris Kit and treated with Turbo DNA-free Kit (Ambion, USA). RNA Quality was assessed on Agilent Bioanalyzer with the RNA 6000 Nano Kit (Agilent, Santa Clara, CA) and samples were considered suitable for processing if RNA Integrity Number was greater than 7.5
+Sequencing libraries were prepared with the TruSeq Stranded Total RNA with Ribo-Zero Globin Kit (Illumina, San Diego, CA) using 800 ng of total RNA
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+Ribo and Globin depleted library
+    </Description>
+    <Data-Processing>
+Basecalls performed using CASAVA version 1.8.2
+Trimming performed with Trimmomatic v0.35, with following parameters: MINLEN:40, AVGQUAL:25 and TRAILING:15
+Trimmed reads aligned to GRCh38 using STAR v.2.5.2b using as reference transcript the gencode (v.25) primary assembly gene transfer file (GTF).
+Gene counting performed on files including only uniquely mapped fragments using featurecounts v1.5.1 with custom parameters: --minOverlap 5; only both reads, no multimapping.
+Genome_build: GRCh38
+Supplementary_files_format_and_content: excel file including raw counts for each sample (columns) across 58906 genes (rows) [counts matrix]
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN08519028" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX3683543" />
+  </Sample>
+
+  <Series iid="GSE110487">
+    <Status database="GEO">
+      <Submission-Date>2018-02-12</Submission-Date>
+      <Release-Date>2018-12-03</Release-Date>
+      <Last-Update-Date>2019-05-17</Last-Update-Date>
+    </Status>
+    <Title>Whole blood transcriptome analysis of Septic shock patients according to early therapy response</Title>
+    <Accession database="GEO">GSE110487</Accession>
+    <Pubmed-ID>30463588</Pubmed-ID>
+    <Summary>
+Septic shock is the most severe complication of sepsis, associated with high mortality. The patient’s response to supportive therapy is very heterogeneous and the underlying mechanisms are still elusive. In order to identify which are the actors (genes and pathways) that play a role in establishing the response, we investigate the whole blood transcriptome in septic shock patients with positive and negative responses to early supportive hemodynamic therapy, assessed by changes in SOFA scores within the first 48 hours from ICU admission. We pinpointed genes and pathways that are differently modulated and enriched respectively within 48hrs between responders and non-responders.
+    </Summary>
+    <Overall-Design>
+We analyzed 31 patients (17 Responders and 14 Not Responders to early therapy). For each patient, 2 samples were collected. In particular the first sample (T1) collected within 16 hours from ICU admission whereas the second (T2) collected within 48 hours from ICU admission. Experimental groups (Responders and Not Responders) are defined accordingly with SOFA scores improvements within 48 hours.
+    </Overall-Design>
+    <Type>Expression profiling by high throughput sequencing</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contributor-Ref ref="contrib4" position="3" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM2992274" />
+    <Sample-Ref ref="GSM2992275" />
+    <Sample-Ref ref="GSM2992276" />
+    <Sample-Ref ref="GSM2992277" />
+    <Sample-Ref ref="GSM2992278" />
+    <Sample-Ref ref="GSM2992279" />
+    <Sample-Ref ref="GSM2992280" />
+    <Sample-Ref ref="GSM2992281" />
+    <Sample-Ref ref="GSM2992282" />
+    <Sample-Ref ref="GSM2992283" />
+    <Sample-Ref ref="GSM2992284" />
+    <Sample-Ref ref="GSM2992285" />
+    <Sample-Ref ref="GSM2992286" />
+    <Sample-Ref ref="GSM2992287" />
+    <Sample-Ref ref="GSM2992288" />
+    <Sample-Ref ref="GSM2992289" />
+    <Sample-Ref ref="GSM2992290" />
+    <Sample-Ref ref="GSM2992291" />
+    <Sample-Ref ref="GSM2992292" />
+    <Sample-Ref ref="GSM2992293" />
+    <Sample-Ref ref="GSM2992294" />
+    <Sample-Ref ref="GSM2992295" />
+    <Sample-Ref ref="GSM2992296" />
+    <Sample-Ref ref="GSM2992297" />
+    <Sample-Ref ref="GSM2992298" />
+    <Sample-Ref ref="GSM2992299" />
+    <Sample-Ref ref="GSM2992300" />
+    <Sample-Ref ref="GSM2992301" />
+    <Sample-Ref ref="GSM2992302" />
+    <Sample-Ref ref="GSM2992303" />
+    <Sample-Ref ref="GSM2992304" />
+    <Sample-Ref ref="GSM2992305" />
+    <Sample-Ref ref="GSM2992306" />
+    <Sample-Ref ref="GSM2992307" />
+    <Sample-Ref ref="GSM2992308" />
+    <Sample-Ref ref="GSM2992309" />
+    <Sample-Ref ref="GSM2992310" />
+    <Sample-Ref ref="GSM2992311" />
+    <Sample-Ref ref="GSM2992312" />
+    <Sample-Ref ref="GSM2992313" />
+    <Sample-Ref ref="GSM2992314" />
+    <Sample-Ref ref="GSM2992315" />
+    <Sample-Ref ref="GSM2992316" />
+    <Sample-Ref ref="GSM2992317" />
+    <Sample-Ref ref="GSM2992318" />
+    <Sample-Ref ref="GSM2992319" />
+    <Sample-Ref ref="GSM2992320" />
+    <Sample-Ref ref="GSM2992321" />
+    <Sample-Ref ref="GSM2992322" />
+    <Sample-Ref ref="GSM2992323" />
+    <Sample-Ref ref="GSM2992324" />
+    <Sample-Ref ref="GSM2992325" />
+    <Sample-Ref ref="GSM2992326" />
+    <Sample-Ref ref="GSM2992327" />
+    <Sample-Ref ref="GSM2992328" />
+    <Sample-Ref ref="GSM2992329" />
+    <Sample-Ref ref="GSM2992330" />
+    <Sample-Ref ref="GSM2992331" />
+    <Sample-Ref ref="GSM2992332" />
+    <Sample-Ref ref="GSM2992333" />
+    <Sample-Ref ref="GSM2992334" />
+    <Sample-Ref ref="GSM2992335" />
+    <Supplementary-Data type="XLSX">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE110nnn/GSE110487/suppl/GSE110487_rawcounts.xlsx
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433853" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRP132709" />
+  </Series>
+
+</MINiML>

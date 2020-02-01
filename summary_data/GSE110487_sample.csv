@@ -1,0 +1,63 @@
+Source,Organism,Molecule,tissue,patient,timepoint,clinical classification
+Responder T1 patient1,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E04,T1,R
+Responder T2 patient1,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E04,T2,R
+Not Responder T1 patient1,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E07,T1,NR
+Not Responder T2 patient1,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E07,T2,NR
+Not Responder T1 patient2,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E15,T1,NR
+Not Responder T2 patient2,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E15,T2,NR
+Not Responder T1 patient3,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E16,T1,NR
+Not Responder T2 patient3,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E16,T2,NR
+Not Responder T1 patient4,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E17,T2,NR
+Not Responder T2 patient4,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E17,T1,NR
+Responder T1 patient2,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E18,T2,R
+Responder T2 patient2,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E18,T1,R
+Not Responder T1 patient5,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E26,T2,NR
+Not Responder T2 patient5,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E26,T1,NR
+Responder T1 patient3,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E32,T2,R
+Responder T2 patient3,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E32,T2,R
+Not Responder T1 patient6,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E33,T1,NR
+Not Responder T2 patient6,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E33,T2,NR
+Not Responder T1 patient7,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E40,T1,NR
+Not Responder T2 patient7,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E40,T2,NR
+Not Responder T1 patient8,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E41,T1,NR
+Not Responder T2 patient8,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,E41,T2,NR
+Not Responder T1 patient9,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G01,T1,NR
+Not Responder T2 patient9,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G01,T2,NR
+Responder T1 patient4,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G07,T1,R
+Responder T2 patient4,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G07,T2,R
+Not Responder T1 patient10,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G08,T1,NR
+Not Responder T2 patient10,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G08,T2,NR
+Responder T1 patient5,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G11,T2,R
+Responder T2 patient5,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G11,T1,R
+Not Responder T1 patient11,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G12,T2,NR
+Not Responder T2 patient11,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G12,T1,NR
+Responder T1 patient6,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G23,T2,R
+Responder T2 patient6,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G23,T1,R
+Responder T1 patient7,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G28,T2,R
+Responder T2 patient7,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G28,T2,R
+Responder T1 patient8,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G29,T1,R
+Responder T2 patient8,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G29,T2,R
+Responder T1 patient9,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G33,T1,R
+Responder T2 patient9,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G33,T2,R
+Responder T1 patient10,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G34,T1,R
+Responder T2 patient10,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G34,T2,R
+Not Responder T1 patient12,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G35,T1,NR
+Not Responder T2 patient12,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G35,T2,NR
+Responder T1 patient11,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G39,T1,R
+Responder T2 patient11,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G39,T2,R
+Responder T1 patient12,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G41,T1,R
+Responder T2 patient12,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G41,T2,R
+Not Responder T1 patient13,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G42,T2,NR
+Not Responder T2 patient13,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G42,T1,NR
+Responder T1 patient13,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G43,T2,R
+Responder T2 patient13,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G43,T1,R
+Responder T1 patient14,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G44,T2,R
+Responder T2 patient14,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G44,T1,R
+Responder T1 patient15,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G45,T2,R
+Responder T2 patient15,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G45,T2,R
+Not Responder T1 patient14,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G47,T1,NR
+Not Responder T2 patient14,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G47,T2,NR
+Responder T1 patient16,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G49,T1,R
+Responder T2 patient16,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G49,T2,R
+Responder T1 patient17,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G51,T1,R
+Responder T2 patient17,Homo sapiens,total RNA,Whole blood cells collected from patient after septic shock,G51,T2,R

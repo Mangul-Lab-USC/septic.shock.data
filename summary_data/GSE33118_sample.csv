@@ -1,0 +1,21 @@
+Source,Organism,Molecule,tissue,infection,survival,Sex,age
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,40-59
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,40-59
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,F,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,F,40-59
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,F,20-39
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,F,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,F,> 80
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,> 80
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,F,> 80
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,F,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,F,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,20-39
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,negative,M,> 80
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,> 80
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,60-79
+blood sample,Homo sapiens,total RNA,blood,pneumonia,positive,M,60-79

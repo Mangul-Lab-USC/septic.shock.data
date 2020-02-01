@@ -1,0 +1,4857 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Benjamin</First><Middle>Man Piu</Middle><Last>Tang</Last></Person>
+    <Email>benjamin@clubsalsa.com.au</Email>
+    <Phone>61415614883</Phone>
+    <Department>Intensive Care Medicine</Department>
+    <Organization>Nepean Hospital</Organization>
+    <Address>
+      <Line>12/29 Cook Street</Line>
+      <City>Glebe</City>
+      <State>NSW</State>
+      <Postal-Code>2037</Postal-Code>
+      <Country>Australia</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Benjamin</First><Middle>M</Middle><Last>Tang</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Ruby</First><Middle>C</Middle><Last>Lin</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM251887">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP1</Title>
+    <Accession database="GEO">GSM251887</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251887/suppl/GSM251887.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251887-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251888">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP2</Title>
+    <Accession database="GEO">GSM251888</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251888/suppl/GSM251888.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251888-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251889">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP3</Title>
+    <Accession database="GEO">GSM251889</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251889/suppl/GSM251889.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251889-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251890">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP4</Title>
+    <Accession database="GEO">GSM251890</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251890/suppl/GSM251890.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251890-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251891">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP5</Title>
+    <Accession database="GEO">GSM251891</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251891/suppl/GSM251891.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251891-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251892">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP6</Title>
+    <Accession database="GEO">GSM251892</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251892/suppl/GSM251892.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251892-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251893">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP7</Title>
+    <Accession database="GEO">GSM251893</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251893/suppl/GSM251893.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251893-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251894">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP8</Title>
+    <Accession database="GEO">GSM251894</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251894/suppl/GSM251894.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251894-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251895">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP9</Title>
+    <Accession database="GEO">GSM251895</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251895/suppl/GSM251895.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251895-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251896">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive TP10</Title>
+    <Accession database="GEO">GSM251896</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251896/suppl/GSM251896.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251896-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251897">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN1</Title>
+    <Accession database="GEO">GSM251897</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251897/suppl/GSM251897.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251897-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251898">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN2</Title>
+    <Accession database="GEO">GSM251898</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251898/suppl/GSM251898.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251898-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251899">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN3</Title>
+    <Accession database="GEO">GSM251899</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251899/suppl/GSM251899.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251899-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251900">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN4</Title>
+    <Accession database="GEO">GSM251900</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251900/suppl/GSM251900.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251900-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251901">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN5</Title>
+    <Accession database="GEO">GSM251901</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251901/suppl/GSM251901.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251901-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251902">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN6</Title>
+    <Accession database="GEO">GSM251902</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251902/suppl/GSM251902.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251902-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251903">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN7</Title>
+    <Accession database="GEO">GSM251903</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251903/suppl/GSM251903.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251903-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251904">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN8</Title>
+    <Accession database="GEO">GSM251904</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251904/suppl/GSM251904.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251904-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251905">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative TN9</Title>
+    <Accession database="GEO">GSM251905</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251905/suppl/GSM251905.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251905-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251928">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM1</Title>
+    <Accession database="GEO">GSM251928</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251928/suppl/GSM251928.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251928-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251929">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM2</Title>
+    <Accession database="GEO">GSM251929</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251929/suppl/GSM251929.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251929-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251930">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM3</Title>
+    <Accession database="GEO">GSM251930</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251930/suppl/GSM251930.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251930-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251931">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM4</Title>
+    <Accession database="GEO">GSM251931</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251931/suppl/GSM251931.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251931-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251932">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM5</Title>
+    <Accession database="GEO">GSM251932</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251932/suppl/GSM251932.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251932-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251933">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection TM6</Title>
+    <Accession database="GEO">GSM251933</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251933/suppl/GSM251933.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251933-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251934">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC1</Title>
+    <Accession database="GEO">GSM251934</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251934/suppl/GSM251934.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251934-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251935">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC2</Title>
+    <Accession database="GEO">GSM251935</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251935/suppl/GSM251935.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251935-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251936">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC3</Title>
+    <Accession database="GEO">GSM251936</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251936/suppl/GSM251936.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251936-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251937">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC4</Title>
+    <Accession database="GEO">GSM251937</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251937/suppl/GSM251937.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251937-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251938">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC5</Title>
+    <Accession database="GEO">GSM251938</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251938/suppl/GSM251938.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251938-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251939">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC6</Title>
+    <Accession database="GEO">GSM251939</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251939/suppl/GSM251939.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251939-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251940">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC7</Title>
+    <Accession database="GEO">GSM251940</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251940/suppl/GSM251940.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251940-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251941">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC8</Title>
+    <Accession database="GEO">GSM251941</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251941/suppl/GSM251941.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251941-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251942">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC9</Title>
+    <Accession database="GEO">GSM251942</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251942/suppl/GSM251942.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251942-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251943">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control TC10</Title>
+    <Accession database="GEO">GSM251943</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Training set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251943/suppl/GSM251943.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251943-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251944">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V1</Title>
+    <Accession database="GEO">GSM251944</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251944/suppl/GSM251944.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251944-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251945">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V2</Title>
+    <Accession database="GEO">GSM251945</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251945/suppl/GSM251945.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251945-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251946">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V3</Title>
+    <Accession database="GEO">GSM251946</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251946/suppl/GSM251946.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251946-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251947">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V4</Title>
+    <Accession database="GEO">GSM251947</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251947/suppl/GSM251947.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251947-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251948">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V5</Title>
+    <Accession database="GEO">GSM251948</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251948/suppl/GSM251948.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251948-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251949">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V6</Title>
+    <Accession database="GEO">GSM251949</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251949/suppl/GSM251949.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251949-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251950">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V7</Title>
+    <Accession database="GEO">GSM251950</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251950/suppl/GSM251950.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251950-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251951">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V8</Title>
+    <Accession database="GEO">GSM251951</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251951/suppl/GSM251951.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251951-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251952">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V9</Title>
+    <Accession database="GEO">GSM251952</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251952/suppl/GSM251952.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251952-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251953">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection V10</Title>
+    <Accession database="GEO">GSM251953</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251953/suppl/GSM251953.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251953-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251982">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V11</Title>
+    <Accession database="GEO">GSM251982</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251982/suppl/GSM251982.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251982-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251983">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection  V12</Title>
+    <Accession database="GEO">GSM251983</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251983/suppl/GSM251983.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251983-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251984">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection V13</Title>
+    <Accession database="GEO">GSM251984</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251984/suppl/GSM251984.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251984-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251985">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V14</Title>
+    <Accession database="GEO">GSM251985</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251985/suppl/GSM251985.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251985-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251986">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V15</Title>
+    <Accession database="GEO">GSM251986</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251986/suppl/GSM251986.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251986-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251987">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V16</Title>
+    <Accession database="GEO">GSM251987</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251987/suppl/GSM251987.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251987-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251988">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V17</Title>
+    <Accession database="GEO">GSM251988</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251988/suppl/GSM251988.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251988-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251989">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V18</Title>
+    <Accession database="GEO">GSM251989</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251989/suppl/GSM251989.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251989-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251990">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V19</Title>
+    <Accession database="GEO">GSM251990</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251990/suppl/GSM251990.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251990-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251991">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V20</Title>
+    <Accession database="GEO">GSM251991</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251991/suppl/GSM251991.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251991-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251992">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V21</Title>
+    <Accession database="GEO">GSM251992</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251992/suppl/GSM251992.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251992-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251993">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V22</Title>
+    <Accession database="GEO">GSM251993</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251993/suppl/GSM251993.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251993-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251994">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V23</Title>
+    <Accession database="GEO">GSM251994</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251994/suppl/GSM251994.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251994-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251995">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis mixed infection  V24</Title>
+    <Accession database="GEO">GSM251995</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Mixed Infection
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251995/suppl/GSM251995.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251995-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251996">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V25</Title>
+    <Accession database="GEO">GSM251996</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251996/suppl/GSM251996.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251996-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251997">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Control V26</Title>
+    <Accession database="GEO">GSM251997</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Control
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251997/suppl/GSM251997.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251997-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251998">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V27</Title>
+    <Accession database="GEO">GSM251998</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251998/suppl/GSM251998.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251998-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM251999">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V28</Title>
+    <Accession database="GEO">GSM251999</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM251nnn/GSM251999/suppl/GSM251999.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM251999-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252000">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V29</Title>
+    <Accession database="GEO">GSM252000</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252000/suppl/GSM252000.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252000-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252001">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V30</Title>
+    <Accession database="GEO">GSM252001</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252001/suppl/GSM252001.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252001-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252002">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V31</Title>
+    <Accession database="GEO">GSM252002</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252002/suppl/GSM252002.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252002-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252003">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V32</Title>
+    <Accession database="GEO">GSM252003</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252003/suppl/GSM252003.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252003-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252004">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-positive V33</Title>
+    <Accession database="GEO">GSM252004</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Positive
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252004/suppl/GSM252004.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252004-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252005">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis gram-negative V34</Title>
+    <Accession database="GEO">GSM252005</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Characteristics>
+Gram-Negative
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252005/suppl/GSM252005.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252005-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM252006">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2018-11-14</Last-Update-Date>
+    </Status>
+    <Title>Sepsis V35</Title>
+    <Accession database="GEO">GSM252006</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Circulating mononuclear cells</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Sepsis
+      </Characteristics>
+      <Treatment-Protocol>
+Nil treatment given
+      </Treatment-Protocol>
+      <Growth-Protocol>
+After each blood sample was collected, mononuclear cells were purified using density gradient separation using Ficoll-Paque (Amersham).
+      </Growth-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA extraction using guanidinium thiocyanate (Ambion) according to manufacturer's protocol.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle labelling protocol from 1ug total RNA (Expression Analysis Technical Manual 2001, Affymetrix)
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Following fragmentation, 15ug of cRNA were hybridized for 16 hr at 45C on GeneChip U133 plus 2.0 arrays.  GeneChips were washed and stained in the Affymetrix Fluidics Station 450
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+GeneChips were scanned using an Affymetrix GCS3000 7G 4C scanner with autoloader
+    </Scan-Protocol>
+    <Description>
+Validation set
+    </Description>
+    <Data-Processing>
+Affymetrix CEL files were imported into the RMA software (Bioconductor) to compute probeset summaries.  Quantile nomalization was used.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM252nnn/GSM252006/suppl/GSM252006.CEL.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE122511" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Normalized signal intensity from RMA</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM252006-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE9960">
+    <Status database="GEO">
+      <Submission-Date>2007-12-19</Submission-Date>
+      <Release-Date>2009-04-01</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Gene-expression profiling of peripheral blood mononuclear cells in sepsis</Title>
+    <Accession database="GEO">GSE9960</Accession>
+    <Pubmed-ID>19535937</Pubmed-ID>
+    <Pubmed-ID>19237892</Pubmed-ID>
+    <Summary>
+To identify signature genes that help distinguish (1) sepsis from non-infectious causes of systemic inflammatory response syndrome, (2) between Gram-positive and Gram-negative sepsis.
+Keywords: Class prediction study
+    </Summary>
+    <Overall-Design>
+A total of 70 critically ill patients were enrolled in a single-centre observational study.  Gene-expression profiling was performed using Affymetrix microarray (U133plus2) with 54,675 transcript.  Data was divided into a training set (n=35) and a validation set (n=35).  A molecular signature was developed in the training set and was then validated in the validation set.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM251887" />
+    <Sample-Ref ref="GSM251888" />
+    <Sample-Ref ref="GSM251889" />
+    <Sample-Ref ref="GSM251890" />
+    <Sample-Ref ref="GSM251891" />
+    <Sample-Ref ref="GSM251892" />
+    <Sample-Ref ref="GSM251893" />
+    <Sample-Ref ref="GSM251894" />
+    <Sample-Ref ref="GSM251895" />
+    <Sample-Ref ref="GSM251896" />
+    <Sample-Ref ref="GSM251897" />
+    <Sample-Ref ref="GSM251898" />
+    <Sample-Ref ref="GSM251899" />
+    <Sample-Ref ref="GSM251900" />
+    <Sample-Ref ref="GSM251901" />
+    <Sample-Ref ref="GSM251902" />
+    <Sample-Ref ref="GSM251903" />
+    <Sample-Ref ref="GSM251904" />
+    <Sample-Ref ref="GSM251905" />
+    <Sample-Ref ref="GSM251928" />
+    <Sample-Ref ref="GSM251929" />
+    <Sample-Ref ref="GSM251930" />
+    <Sample-Ref ref="GSM251931" />
+    <Sample-Ref ref="GSM251932" />
+    <Sample-Ref ref="GSM251933" />
+    <Sample-Ref ref="GSM251934" />
+    <Sample-Ref ref="GSM251935" />
+    <Sample-Ref ref="GSM251936" />
+    <Sample-Ref ref="GSM251937" />
+    <Sample-Ref ref="GSM251938" />
+    <Sample-Ref ref="GSM251939" />
+    <Sample-Ref ref="GSM251940" />
+    <Sample-Ref ref="GSM251941" />
+    <Sample-Ref ref="GSM251942" />
+    <Sample-Ref ref="GSM251943" />
+    <Sample-Ref ref="GSM251944" />
+    <Sample-Ref ref="GSM251945" />
+    <Sample-Ref ref="GSM251946" />
+    <Sample-Ref ref="GSM251947" />
+    <Sample-Ref ref="GSM251948" />
+    <Sample-Ref ref="GSM251949" />
+    <Sample-Ref ref="GSM251950" />
+    <Sample-Ref ref="GSM251951" />
+    <Sample-Ref ref="GSM251952" />
+    <Sample-Ref ref="GSM251953" />
+    <Sample-Ref ref="GSM251982" />
+    <Sample-Ref ref="GSM251983" />
+    <Sample-Ref ref="GSM251984" />
+    <Sample-Ref ref="GSM251985" />
+    <Sample-Ref ref="GSM251986" />
+    <Sample-Ref ref="GSM251987" />
+    <Sample-Ref ref="GSM251988" />
+    <Sample-Ref ref="GSM251989" />
+    <Sample-Ref ref="GSM251990" />
+    <Sample-Ref ref="GSM251991" />
+    <Sample-Ref ref="GSM251992" />
+    <Sample-Ref ref="GSM251993" />
+    <Sample-Ref ref="GSM251994" />
+    <Sample-Ref ref="GSM251995" />
+    <Sample-Ref ref="GSM251996" />
+    <Sample-Ref ref="GSM251997" />
+    <Sample-Ref ref="GSM251998" />
+    <Sample-Ref ref="GSM251999" />
+    <Sample-Ref ref="GSM252000" />
+    <Sample-Ref ref="GSM252001" />
+    <Sample-Ref ref="GSM252002" />
+    <Sample-Ref ref="GSM252003" />
+    <Sample-Ref ref="GSM252004" />
+    <Sample-Ref ref="GSM252005" />
+    <Sample-Ref ref="GSM252006" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE9nnn/GSE9960/suppl/GSE9960_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA103971" />
+  </Series>
+
+</MINiML>

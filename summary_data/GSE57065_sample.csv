@@ -1,0 +1,108 @@
+Source,Organism,Molecule,age,gender,sapsii,collection time
+"patient 001, H0",Homo sapiens,total RNA,43,FEMALE,SAPSII-High,0 hr
+"patient 001, H24",Homo sapiens,total RNA,43,FEMALE,SAPSII-High,24 hr
+"patient 001, H48",Homo sapiens,total RNA,43,FEMALE,SAPSII-High,48 hr
+"patient 002, H0",Homo sapiens,total RNA,34,FEMALE,SAPSII-Low,0 hr
+"patient 002, H24",Homo sapiens,total RNA,34,FEMALE,SAPSII-Low,24 hr
+"patient 002, H48",Homo sapiens,total RNA,34,FEMALE,SAPSII-Low,48 hr
+"patient 003, H0",Homo sapiens,total RNA,69,MALE,SAPSII-Low,0 hr
+"patient 003, H24",Homo sapiens,total RNA,69,MALE,SAPSII-Low,24 hr
+"patient 003, H48",Homo sapiens,total RNA,69,MALE,SAPSII-Low,48 hr
+"patient 004, H0",Homo sapiens,total RNA,41,MALE,SAPSII-Low,0 hr
+"patient 004, H24",Homo sapiens,total RNA,41,MALE,SAPSII-Low,24 hr
+"patient 004, H48",Homo sapiens,total RNA,41,MALE,SAPSII-Low,48 hr
+"patient 005, H0",Homo sapiens,total RNA,79,MALE,SAPSII-High,0 hr
+"patient 005, H24",Homo sapiens,total RNA,79,MALE,SAPSII-High,24 hr
+"patient 005, H48",Homo sapiens,total RNA,79,MALE,SAPSII-High,48 hr
+"patient 006, H0",Homo sapiens,total RNA,29,MALE,SAPSII-Low,0 hr
+"patient 006, H24",Homo sapiens,total RNA,29,MALE,SAPSII-Low,24 hr
+"patient 006, H48",Homo sapiens,total RNA,29,MALE,SAPSII-Low,48 hr
+"patient 007, H0",Homo sapiens,total RNA,76,FEMALE,SAPSII-Low,0 hr
+"patient 007, H24",Homo sapiens,total RNA,76,FEMALE,SAPSII-Low,24 hr
+"patient 007, H48",Homo sapiens,total RNA,76,FEMALE,SAPSII-Low,48 hr
+"patient 008, H0",Homo sapiens,total RNA,84,FEMALE,SAPSII-High,0 hr
+"patient 008, H24",Homo sapiens,total RNA,84,FEMALE,SAPSII-High,24 hr
+"patient 008, H48",Homo sapiens,total RNA,84,FEMALE,SAPSII-High,48 hr
+"patient 009, H0",Homo sapiens,total RNA,58,FEMALE,SAPSII-Low,0 hr
+"patient 009, H24",Homo sapiens,total RNA,58,FEMALE,SAPSII-Low,24 hr
+"patient 009, H48",Homo sapiens,total RNA,58,FEMALE,SAPSII-Low,48 hr
+"patient 010, H0",Homo sapiens,total RNA,83,FEMALE,SAPSII-High,0 hr
+"patient 010, H24",Homo sapiens,total RNA,83,FEMALE,SAPSII-High,24 hr
+"patient 010, H48",Homo sapiens,total RNA,83,FEMALE,SAPSII-High,48 hr
+"patient 011, H0",Homo sapiens,total RNA,79,MALE,SAPSII-High,0 hr
+"patient 011, H24",Homo sapiens,total RNA,79,MALE,SAPSII-High,24 hr
+"patient 011, H48",Homo sapiens,total RNA,79,MALE,SAPSII-High,48 hr
+"patient 013, H0",Homo sapiens,total RNA,59,MALE,SAPSII-Low,0 hr
+"patient 013, H24",Homo sapiens,total RNA,59,MALE,SAPSII-Low,24 hr
+"patient 013, H48",Homo sapiens,total RNA,59,MALE,SAPSII-Low,48 hr
+"patient 014, H0",Homo sapiens,total RNA,76,MALE,SAPSII-High,0 hr
+"patient 014, H24",Homo sapiens,total RNA,76,MALE,SAPSII-High,24 hr
+"patient 014, H48",Homo sapiens,total RNA,76,MALE,SAPSII-High,48 hr
+"patient 015, H0",Homo sapiens,total RNA,56,MALE,SAPSII-High,0 hr
+"patient 015, H24",Homo sapiens,total RNA,56,MALE,SAPSII-High,24 hr
+"patient 015, H48",Homo sapiens,total RNA,56,MALE,SAPSII-High,48 hr
+"patient 017, H0",Homo sapiens,total RNA,56,MALE,SAPSII-Low,0 hr
+"patient 017, H24",Homo sapiens,total RNA,56,MALE,SAPSII-Low,24 hr
+"patient 017, H48",Homo sapiens,total RNA,56,MALE,SAPSII-Low,48 hr
+"patient 018, H0",Homo sapiens,total RNA,64,MALE,SAPSII-High,0 hr
+"patient 018, H24",Homo sapiens,total RNA,64,MALE,SAPSII-High,24 hr
+"patient 018, H48",Homo sapiens,total RNA,64,MALE,SAPSII-High,48 hr
+"patient 019, H0",Homo sapiens,total RNA,68,MALE,SAPSII-Low,0 hr
+"patient 019, H24",Homo sapiens,total RNA,68,MALE,SAPSII-Low,24 hr
+"patient 019, H48",Homo sapiens,total RNA,68,MALE,SAPSII-Low,48 hr
+"patient 020, H0",Homo sapiens,total RNA,46,MALE,SAPSII-High,0 hr
+"patient 020, H24",Homo sapiens,total RNA,46,MALE,SAPSII-High,24 hr
+"patient 021, H0",Homo sapiens,total RNA,76,MALE,SAPSII-High,0 hr
+"patient 021, H24",Homo sapiens,total RNA,76,MALE,SAPSII-High,24 hr
+"patient 021, H48",Homo sapiens,total RNA,76,MALE,SAPSII-High,48 hr
+"patient 101, H0",Homo sapiens,total RNA,81,MALE,SAPSII-Low,0 hr
+"patient 101, H24",Homo sapiens,total RNA,81,MALE,SAPSII-Low,24 hr
+"patient 101, H48",Homo sapiens,total RNA,81,MALE,SAPSII-Low,48 hr
+"patient 102, H0",Homo sapiens,total RNA,49,MALE,SAPSII-Low,0 hr
+"patient 102, H24",Homo sapiens,total RNA,49,MALE,SAPSII-Low,24 hr
+"patient 102, H48",Homo sapiens,total RNA,49,MALE,SAPSII-Low,48 hr
+"patient 104, H0",Homo sapiens,total RNA,71,MALE,SAPSII-Low,0 hr
+"patient 104, H24",Homo sapiens,total RNA,71,MALE,SAPSII-Low,24 hr
+"patient 104, H48",Homo sapiens,total RNA,71,MALE,SAPSII-Low,48 hr
+"patient 105, H0",Homo sapiens,total RNA,84,MALE,SAPSII-High,0 hr
+"patient 105, H24",Homo sapiens,total RNA,84,MALE,SAPSII-High,24 hr
+"patient 106, H0",Homo sapiens,total RNA,60,MALE,SAPSII-Low,0 hr
+"patient 106, H24",Homo sapiens,total RNA,60,MALE,SAPSII-Low,24 hr
+"patient 106, H48",Homo sapiens,total RNA,60,MALE,SAPSII-Low,48 hr
+"patient 107, H0",Homo sapiens,total RNA,59,FEMALE,SAPSII-High,0 hr
+"patient 107, H24",Homo sapiens,total RNA,59,FEMALE,SAPSII-High,24 hr
+"patient 107, H48",Homo sapiens,total RNA,59,FEMALE,SAPSII-High,48 hr
+"patient 108, H0",Homo sapiens,total RNA,58,MALE,SAPSII-High,0 hr
+"patient 108, H24",Homo sapiens,total RNA,58,MALE,SAPSII-High,24 hr
+"patient 108, H48",Homo sapiens,total RNA,58,MALE,SAPSII-High,48 hr
+"patient 109, H0",Homo sapiens,total RNA,45,FEMALE,SAPSII-Low,0 hr
+"patient 109, H24",Homo sapiens,total RNA,45,FEMALE,SAPSII-Low,24 hr
+"patient 109, H48",Homo sapiens,total RNA,45,FEMALE,SAPSII-Low,48 hr
+"patient 111, H0",Homo sapiens,total RNA,73,FEMALE,SAPSII-High,0 hr
+"patient 111, H24",Homo sapiens,total RNA,73,FEMALE,SAPSII-High,24 hr
+"patient 111, H48",Homo sapiens,total RNA,73,FEMALE,SAPSII-High,48 hr
+Temoin HV01,Homo sapiens,total RNA,20,FEMALE,NA
+Temoin HV02,Homo sapiens,total RNA,29,FEMALE,NA
+Temoin HV03,Homo sapiens,total RNA,52,MALE,NA
+Temoin HV04,Homo sapiens,total RNA,47,FEMALE,NA
+Temoin HV05,Homo sapiens,total RNA,40,FEMALE,NA
+Temoin HV06,Homo sapiens,total RNA,28,MALE,NA
+Temoin HV07,Homo sapiens,total RNA,37,MALE,NA
+Temoin HV08,Homo sapiens,total RNA,50,MALE,NA
+Temoin HV09,Homo sapiens,total RNA,41,FEMALE,NA
+Temoin HV10,Homo sapiens,total RNA,19,MALE,NA
+Temoin HV11,Homo sapiens,total RNA,48,FEMALE,NA
+Temoin HV12,Homo sapiens,total RNA,37,FEMALE,NA
+Temoin HV13,Homo sapiens,total RNA,52,FEMALE,NA
+Temoin HV14,Homo sapiens,total RNA,49,FEMALE,NA
+Temoin HV15,Homo sapiens,total RNA,56,FEMALE,NA
+Temoin HV16,Homo sapiens,total RNA,49,FEMALE,NA
+Temoin HV17,Homo sapiens,total RNA,59,FEMALE,NA
+Temoin HV18,Homo sapiens,total RNA,55,FEMALE,NA
+Temoin HV19,Homo sapiens,total RNA,40,FEMALE,NA
+Temoin HV20,Homo sapiens,total RNA,46,FEMALE,NA
+Temoin HV21,Homo sapiens,total RNA,58,FEMALE,NA
+Temoin HV22,Homo sapiens,total RNA,52,FEMALE,NA
+Temoin HV23,Homo sapiens,total RNA,56,FEMALE,NA
+Temoin HV24,Homo sapiens,total RNA,50,FEMALE,NA
+Temoin HV25,Homo sapiens,total RNA,42,FEMALE,NA

@@ -1,0 +1,2828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Marieke</First><Last>Emonts</Last></Person>
+    <Email>m.emonts@erasmusmc.nl</Email>
+    <Organization>Erasmus MC</Organization>
+    <Address>
+      <Line>Dr Molewaterplein 50, room Ee15-02</Line>
+      <City>Rotterdam</City>
+      <Postal-Code>3015 GE</Postal-Code>
+      <Country>Netherlands</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Martine</First><Last>Maat</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Dick</First><Last>de Ridder</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Tom</First><Last>Schonewille</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Jan</First><Last>Hazelzet</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Jon</First><Last>Laman</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Jacques</First><Last>van Dongen</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Peter</First><Last>Hermans</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Frank</First><Last>Staal</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Ronald</First><Last>de Groot</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM297760">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>002_P1_Lym_T8</Title>
+    <Accession database="GEO">GSM297760</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Lymphocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297760/suppl/GSM297760.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297760/suppl/GSM297760.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297760-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297761">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>003_P1_Lym_T24</Title>
+    <Accession database="GEO">GSM297761</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Lymphocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297761/suppl/GSM297761.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297761/suppl/GSM297761.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297761-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297762">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>004_P1_Lym_T72</Title>
+    <Accession database="GEO">GSM297762</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Lymphocyte/T72</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T72 patient1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297762/suppl/GSM297762.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297762/suppl/GSM297762.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297762-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297763">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>005_P1_Mon_T0</Title>
+    <Accession database="GEO">GSM297763</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Monocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297763/suppl/GSM297763.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297763/suppl/GSM297763.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297763-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297764">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>006_P1_Mon_T8</Title>
+    <Accession database="GEO">GSM297764</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Monocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 Patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297764/suppl/GSM297764.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297764/suppl/GSM297764.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297764-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297765">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>007_P1_Mon_T24</Title>
+    <Accession database="GEO">GSM297765</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Monocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 Patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297765/suppl/GSM297765.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297765/suppl/GSM297765.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297765-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297766">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>008_P1_Mon_T72</Title>
+    <Accession database="GEO">GSM297766</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Monocyte/T72</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T72 patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297766/suppl/GSM297766.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297766/suppl/GSM297766.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297766-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297767">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>015_P1_Blo_T24</Title>
+    <Accession database="GEO">GSM297767</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Blood/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 Patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297767/suppl/GSM297767.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297767/suppl/GSM297767.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297767-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297768">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>016_P1_Blo_T72</Title>
+    <Accession database="GEO">GSM297768</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient1/Blood/T72</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T72 patient 1
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297768/suppl/GSM297768.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297768/suppl/GSM297768.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297768-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297769">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>017_P2_Lym_T0</Title>
+    <Accession database="GEO">GSM297769</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Lymphocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 Patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297769/suppl/GSM297769.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297769/suppl/GSM297769.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297769-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297770">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>019_P2_Lym_T24</Title>
+    <Accession database="GEO">GSM297770</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Lymphocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 Patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297770/suppl/GSM297770.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297770/suppl/GSM297770.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297770-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297771">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>020_P2_Lym_T72</Title>
+    <Accession database="GEO">GSM297771</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Lymphocyte/T72</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T72 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297771/suppl/GSM297771.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297771/suppl/GSM297771.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297771-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297772">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>022_P2_Mon_T8</Title>
+    <Accession database="GEO">GSM297772</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Monocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297772/suppl/GSM297772.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297772/suppl/GSM297772.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297772-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297773">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>023_P2_Mon_T24</Title>
+    <Accession database="GEO">GSM297773</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Monocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 Patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297773/suppl/GSM297773.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297773/suppl/GSM297773.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297773-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297774">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>029_P2_Blo_T0</Title>
+    <Accession database="GEO">GSM297774</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Blood/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297774/suppl/GSM297774.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297774/suppl/GSM297774.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297774-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297775">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>030_P2_Blo_T8</Title>
+    <Accession database="GEO">GSM297775</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Blood/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297775/suppl/GSM297775.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297775/suppl/GSM297775.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297775-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297776">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>031_P2_Blo_T24</Title>
+    <Accession database="GEO">GSM297776</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Blood/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297776/suppl/GSM297776.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297776/suppl/GSM297776.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297776-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297777">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>032_P2_Blo_T72</Title>
+    <Accession database="GEO">GSM297777</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient2/Blood/T72</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T72 patient 2
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297777/suppl/GSM297777.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297777/suppl/GSM297777.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297777-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297778">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>033_P3_Lym_T0</Title>
+    <Accession database="GEO">GSM297778</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Lymphocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297778/suppl/GSM297778.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297778/suppl/GSM297778.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297778-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297779">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>034_P3_Lym_T8</Title>
+    <Accession database="GEO">GSM297779</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Lymphocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297779/suppl/GSM297779.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297779/suppl/GSM297779.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297779-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297780">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>035_P3_Lym_T24</Title>
+    <Accession database="GEO">GSM297780</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Lymphocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297780/suppl/GSM297780.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297780/suppl/GSM297780.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297780-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297781">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>036_P3_Mon_T0</Title>
+    <Accession database="GEO">GSM297781</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Monocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297781/suppl/GSM297781.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297781/suppl/GSM297781.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297781-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297782">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>037_P3_Mon_T8</Title>
+    <Accession database="GEO">GSM297782</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Monocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T8 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297782/suppl/GSM297782.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297782/suppl/GSM297782.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297782-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297783">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>038_P3_Mon_T24</Title>
+    <Accession database="GEO">GSM297783</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Monocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297783/suppl/GSM297783.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297783/suppl/GSM297783.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297783-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297784">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>042_P3_Blo_T0</Title>
+    <Accession database="GEO">GSM297784</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Blood/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297784/suppl/GSM297784.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297784/suppl/GSM297784.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297784-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297785">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>044_P3_Blo_T24</Title>
+    <Accession database="GEO">GSM297785</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient3/Blood/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 3
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297785/suppl/GSM297785.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297785/suppl/GSM297785.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297785-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297786">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>046_P4_Lym_T8</Title>
+    <Accession database="GEO">GSM297786</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient4/Lymphocyte/T8</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 4
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297786/suppl/GSM297786.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297786/suppl/GSM297786.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297786-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297787">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>047_P4_Lym_T24</Title>
+    <Accession database="GEO">GSM297787</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient4/Lymphocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 4
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297787/suppl/GSM297787.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297787/suppl/GSM297787.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297787-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297788">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>048_P4_Mon_T0</Title>
+    <Accession database="GEO">GSM297788</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient4/Monocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 4
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297788/suppl/GSM297788.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297788/suppl/GSM297788.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297788-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297789">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>057_Cb_Lym</Title>
+    <Accession database="GEO">GSM297789</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-b/Lymphocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+controle b
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297789/suppl/GSM297789.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297789/suppl/GSM297789.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297789-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297790">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>058_Cb_Mon</Title>
+    <Accession database="GEO">GSM297790</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-b/Monocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+controle b
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297790/suppl/GSM297790.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297790/suppl/GSM297790.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297790-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297791">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>060_Cb_Blo</Title>
+    <Accession database="GEO">GSM297791</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-b/Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle b
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297791/suppl/GSM297791.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297791/suppl/GSM297791.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297791-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297792">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>061_Cc_Lym</Title>
+    <Accession database="GEO">GSM297792</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-c/Lymphocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle c
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297792/suppl/GSM297792.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297792/suppl/GSM297792.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297792-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297793">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>064_Cc_Blo</Title>
+    <Accession database="GEO">GSM297793</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-c/Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+controle c
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297793/suppl/GSM297793.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297793/suppl/GSM297793.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297793-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297794">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>065_Cd_Lym</Title>
+    <Accession database="GEO">GSM297794</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-d/Lymphocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle d
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297794/suppl/GSM297794.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297794/suppl/GSM297794.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297794-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297795">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>066_Cd_Mon</Title>
+    <Accession database="GEO">GSM297795</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-d/Monocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle d
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297795/suppl/GSM297795.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297795/suppl/GSM297795.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297795-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297796">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>069_Ca_Lym</Title>
+    <Accession database="GEO">GSM297796</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-a/Lymphocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle a
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297796/suppl/GSM297796.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297796/suppl/GSM297796.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297796-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297797">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>070_Ca_Mon</Title>
+    <Accession database="GEO">GSM297797</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-a/Monocyte</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle a
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297797/suppl/GSM297797.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297797/suppl/GSM297797.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297797-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297798">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>072_Ca_Blo</Title>
+    <Accession database="GEO">GSM297798</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Control-a/Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+Controle a
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297798/suppl/GSM297798.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297798/suppl/GSM297798.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297798-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297799">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>092_P6_Lym_T24</Title>
+    <Accession database="GEO">GSM297799</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient6/Lymphocyte/T24</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T24 patient 6
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297799/suppl/GSM297799.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297799/suppl/GSM297799.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297799-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM297800">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2018-08-28</Last-Update-Date>
+    </Status>
+    <Title>093_P6_Mon_T0</Title>
+    <Accession database="GEO">GSM297800</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Patient6/Monocyte/T0</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics>
+T0 patient 6
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA isolation from leukocyte subsets. One ml of whole blood was used for
+immediate RNA isolation (internal validation step) using QIAamp RNA Blood Kit (Qiagen, Hilden, Germany). The remaining 10 ml whole blood was used to perform a ficoll density separation using Lymphoprep (Nycomed Pharma, Oslo, Norway). Granulocytes and peripheral blood mononuclear cells (PBMCs) were isolated and immediately frozen at -80°C. From the PBMCs, CD14-positive cells (here referred to as monocytes) and CD14-negative cells, hence enriched for B- and T-cells (and therefore here referred to as lymphocytes) were separated using autoMACS (Miltenyi Biotec). RNA was isolated using RNeasy columns according to the standard protocol provided by the manufacturer (Qiagen, Hilden, Germany). The integrity of the RNA was assessed using the RNA 6000 Nano assay kit on a Bioanalyzer (Agilent Technologies).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+standard Affymetrix
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+standard Affymetrix
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+standard Affymetrix
+    </Scan-Protocol>
+    <Description>
+-
+    </Description>
+    <Data-Processing>
+Micro-array analysis. Background was removed using robust multichip analysis (RMA) and probe intensity levels were quantile normalized. Array groups were compared based on the perfect match (PM) probe intensity levels only, by performing a per-probeset two-way analysis of variance (ANOVA, with factors “probe” and “group”). This results in average expression levels for each probeset in each group, as well as raw p-values for the significance of the difference between the groups. The latter were adjusted for multiple testing using ¬Šidák step-up adjustment to control the family-wise error rate (FWER), i.e. the probability of incorrectly calling at least one probeset differentially expressed. All differences with adjusted p-values &lt; 0.05 were considered significant. The Ingenuity program was used to analyse what pathophysiological pathways were differentially expressed between patients at t=0 and controls (Ingenuity Pathway Analysis; 5.5.1-1002).
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297800/suppl/GSM297800.CEL.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="CHP">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM297nnn/GSM297800/suppl/GSM297800.CHP.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSE119087" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>RMA-normalized signal</Description>
+      </Column>
+    <External-Data rows="54675">
+GSM297800-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE11755">
+    <Status database="GEO">
+      <Submission-Date>2008-06-11</Submission-Date>
+      <Release-Date>2008-06-14</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Gene expression profiling in pediatric meningococcal sepsis reveals dynamic changes in NK-cell and cytotoxic molecules</Title>
+    <Accession database="GEO">GSE11755</Accession>
+    <Summary>
+Objective. Meningococcal sepsis remains an important cause of childhood morbidity and mortality. Largely due to logistic complexities of research in young children with acute life-threatening disease, very little is known regarding differential expression kinetics and molecular regulation of immune response genes in leukocyte subsets. 
+Materials and methods. In this prospective case-control study, six children with meningococcal sepsis were included. Blood was drawn at four time points (t=0, t=8, t=24 and t=72 h after admission to the paediatric intensive care unit). Blood was also collected from matched controls. Detailed immunophenotyping of leukocytes was performed; RNA isolated from whole blood, lymphocytes, monocytes, and granulocytes was used to perform Affymetrix micro-array gene expression analysis.
+Results and conclusion. There were no differences in total leukocyte count between patients and controls. In contrast to previous in vitro studies we observed an unexpected decrease in NK cell numbers, as well as downregulation of NK cell specific and cytotoxic T-cell related gene expression in patients with meningococcal septic shock. By contrast, expression of genes, involved in innate immunity and several other pathways, differed between the different leukocyte subpopulations in a dynamic fashion. Compared to previously reported gene expression profiles, it was possible to define a meningococcal sepsis specific expression profile.
+    </Summary>
+    <Overall-Design>
+In this prospective case-control study, six children with meningococcal sepsis were included. Blood was drawn at four time points (t=0, t=8, t=24 and t=72 h after admission to the paediatric intensive care unit). Blood was also collected from matched controls. Detailed immunophenotyping of leukocytes was performed; RNA isolated from whole blood, lymphocytes, monocytes, and granulocytes was used to perform Affymetrix micro-array gene expression analysis.
+No replicates were performed.
+Table 4. Results of between-subject analyses.
+
+Source    Time (h) ca          co/ca at t=T
+Blood     t0:  ca:2 3, co: a b c; t8:  2; t24 :ca:1 2 3; t72: ca:1 2.
+Lym       t0: ca:2 3, co:a b c d;t8: ca:1 3 4;t24: ca:1 2 3 4 6; t72: ca: 1 2.
+Mono      t0:ca: 1 3 4 6, co: a b d; t8: ca:1 2 3; t24:ca: 1 2 3; t72: ca:1.
+
+Numbers represent the patient identification numbers.
+Characters represent the individual controls.
+
+
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contributor-Ref ref="contrib4" position="3" />
+    <Contributor-Ref ref="contrib5" position="4" />
+    <Contributor-Ref ref="contrib6" position="5" />
+    <Contributor-Ref ref="contrib7" position="6" />
+    <Contributor-Ref ref="contrib8" position="7" />
+    <Contributor-Ref ref="contrib9" position="8" />
+    <Contributor-Ref ref="contrib10" position="9" />
+    <Contributor-Ref ref="contrib11" position="10" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM297760" />
+    <Sample-Ref ref="GSM297761" />
+    <Sample-Ref ref="GSM297762" />
+    <Sample-Ref ref="GSM297763" />
+    <Sample-Ref ref="GSM297764" />
+    <Sample-Ref ref="GSM297765" />
+    <Sample-Ref ref="GSM297766" />
+    <Sample-Ref ref="GSM297767" />
+    <Sample-Ref ref="GSM297768" />
+    <Sample-Ref ref="GSM297769" />
+    <Sample-Ref ref="GSM297770" />
+    <Sample-Ref ref="GSM297771" />
+    <Sample-Ref ref="GSM297772" />
+    <Sample-Ref ref="GSM297773" />
+    <Sample-Ref ref="GSM297774" />
+    <Sample-Ref ref="GSM297775" />
+    <Sample-Ref ref="GSM297776" />
+    <Sample-Ref ref="GSM297777" />
+    <Sample-Ref ref="GSM297778" />
+    <Sample-Ref ref="GSM297779" />
+    <Sample-Ref ref="GSM297780" />
+    <Sample-Ref ref="GSM297781" />
+    <Sample-Ref ref="GSM297782" />
+    <Sample-Ref ref="GSM297783" />
+    <Sample-Ref ref="GSM297784" />
+    <Sample-Ref ref="GSM297785" />
+    <Sample-Ref ref="GSM297786" />
+    <Sample-Ref ref="GSM297787" />
+    <Sample-Ref ref="GSM297788" />
+    <Sample-Ref ref="GSM297789" />
+    <Sample-Ref ref="GSM297790" />
+    <Sample-Ref ref="GSM297791" />
+    <Sample-Ref ref="GSM297792" />
+    <Sample-Ref ref="GSM297793" />
+    <Sample-Ref ref="GSM297794" />
+    <Sample-Ref ref="GSM297795" />
+    <Sample-Ref ref="GSM297796" />
+    <Sample-Ref ref="GSM297797" />
+    <Sample-Ref ref="GSM297798" />
+    <Sample-Ref ref="GSM297799" />
+    <Sample-Ref ref="GSM297800" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE11nnn/GSE11755/suppl/GSE11755_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA106047" />
+  </Series>
+
+</MINiML>

@@ -1,0 +1,125 @@
+Source,Organism,Molecule,gender,age,time point,survival
+Control 500,Homo sapiens,total RNA,F,52,NA,NA
+Control 526,Homo sapiens,total RNA,F,53,NA,NA
+Control 529,Homo sapiens,total RNA,F,52,NA,NA
+Control 530,Homo sapiens,total RNA,F,53,NA,NA
+Control 535,Homo sapiens,total RNA,F,76,NA,NA
+Control 553,Homo sapiens,total RNA,F,50,NA,NA
+Control 598,Homo sapiens,total RNA,F,57,NA,NA
+Control 628,Homo sapiens,total RNA,F,61,NA,NA
+Control 742,Homo sapiens,total RNA,F,51,NA,NA
+Control 789,Homo sapiens,total RNA,F,52,NA,NA
+Control 793,Homo sapiens,total RNA,F,67,NA,NA
+Control 511,Homo sapiens,total RNA,M,61,NA,NA
+Control 513,Homo sapiens,total RNA,M,57,NA,NA
+Control 517,Homo sapiens,total RNA,M,60,NA,NA
+Control 523,Homo sapiens,total RNA,M,57,NA,NA
+Control 528,Homo sapiens,total RNA,M,67,NA,NA
+Control 530,Homo sapiens,total RNA,M,56,NA,NA
+Control 532,Homo sapiens,total RNA,M,62,NA,NA
+Control 534,Homo sapiens,total RNA,M,52,NA,NA
+Control 535,Homo sapiens,total RNA,M,57,NA,NA
+Control 537,Homo sapiens,total RNA,M,60,NA,NA
+Control 538,Homo sapiens,total RNA,M,59,NA,NA
+"Patient 108, Day1",Homo sapiens,total RNA,M,80,D01,Survivor
+"Patient 108, Day2",Homo sapiens,total RNA,M,80,D02,Survivor
+"Patient 115, Day1",Homo sapiens,total RNA,M,59,D01,Survivor
+"Patient 115, Day3",Homo sapiens,total RNA,M,59,D03,Survivor
+"Patient 119, Day1",Homo sapiens,total RNA,F,68,D01,Survivor
+"Patient 119, Day2",Homo sapiens,total RNA,F,68,D02,Survivor
+"Patient 121, Day1",Homo sapiens,total RNA,M,36,D01,Survivor
+"Patient 121, Day3",Homo sapiens,total RNA,M,36,D03,Survivor
+"Patient 124, Day1",Homo sapiens,total RNA,M,66,D01,Survivor
+"Patient 124, Day3",Homo sapiens,total RNA,M,66,D03,Survivor
+"Patient 135, Day1",Homo sapiens,total RNA,M,72,D01,Survivor
+"Patient 135, Day3",Homo sapiens,total RNA,M,72,D03,Survivor
+"Patient 142, Day1",Homo sapiens,total RNA,M,60,D01,Survivor
+"Patient 142, Day3",Homo sapiens,total RNA,M,60,D03,Survivor
+"Patient 151, Day1",Homo sapiens,total RNA,M,81,D01,Survivor
+"Patient 151, Day3",Homo sapiens,total RNA,M,81,D03,Survivor
+"Patient 153, Day1",Homo sapiens,total RNA,F,78,D01,Survivor
+"Patient 153, Day3",Homo sapiens,total RNA,F,78,D03,Survivor
+"Patient 16, Day1",Homo sapiens,total RNA,M,65,D01,Survivor
+"Patient 16, Day2",Homo sapiens,total RNA,M,65,D02,Survivor
+"Patient 175, Day1",Homo sapiens,total RNA,M,37,D01,Survivor
+"Patient 175, Day3",Homo sapiens,total RNA,M,37,D03,Survivor
+"Patient 183, Day1",Homo sapiens,total RNA,M,66,D01,Survivor
+"Patient 183, Day2",Homo sapiens,total RNA,M,66,D02,Survivor
+"Patient 19, Day1",Homo sapiens,total RNA,M,80,D01,Survivor
+"Patient 19, Day2",Homo sapiens,total RNA,M,80,D02,Survivor
+"Patient 209, Day1",Homo sapiens,total RNA,M,83,D01,Survivor
+"Patient 209, Day3",Homo sapiens,total RNA,M,83,D03,Survivor
+"Patient 211, Day1",Homo sapiens,total RNA,F,34,D01,Survivor
+"Patient 211, Day3",Homo sapiens,total RNA,F,34,D03,Survivor
+"Patient 213, Day1",Homo sapiens,total RNA,F,27,D01,Survivor
+"Patient 213, Day2",Homo sapiens,total RNA,F,27,D02,Survivor
+"Patient 215, Day1",Homo sapiens,total RNA,M,55,D01,Survivor
+"Patient 215, Day2",Homo sapiens,total RNA,M,55,D02,Survivor
+"Patient 21, Day1",Homo sapiens,total RNA,M,76,D01,Survivor
+"Patient 21, Day3",Homo sapiens,total RNA,M,76,D03,Survivor
+"Patient 248, Day1",Homo sapiens,total RNA,M,66,D01,Survivor
+"Patient 248, Day2",Homo sapiens,total RNA,M,66,D02,Survivor
+"Patient 27, Day1",Homo sapiens,total RNA,F,42,D01,Survivor
+"Patient 27, Day2",Homo sapiens,total RNA,F,42,D02,Survivor
+"Patient 32, Day1",Homo sapiens,total RNA,F,76,D01,Survivor
+"Patient 32, Day3",Homo sapiens,total RNA,F,76,D03,Survivor
+"Patient 33, Day1",Homo sapiens,total RNA,M,75,D01,Survivor
+"Patient 33, Day3",Homo sapiens,total RNA,M,75,D03,Survivor
+"Patient 43, Day1",Homo sapiens,total RNA,M,54,D01,Survivor
+"Patient 43, Day3",Homo sapiens,total RNA,M,54,D03,Survivor
+"Patient 44, Day1",Homo sapiens,total RNA,M,69,D01,Survivor
+"Patient 44, Day3",Homo sapiens,total RNA,M,69,D03,Survivor
+"Patient 46, Day1",Homo sapiens,total RNA,F,65,D01,Survivor
+"Patient 46, Day3",Homo sapiens,total RNA,F,65,D03,Survivor
+"Patient 54, Day1",Homo sapiens,total RNA,M,63,D01,Survivor
+"Patient 54, Day3",Homo sapiens,total RNA,M,63,D03,Survivor
+"Patient 69, Day1",Homo sapiens,total RNA,M,76,D01,Survivor
+"Patient 69, Day3",Homo sapiens,total RNA,M,76,D03,Survivor
+"Patient 70, Day1",Homo sapiens,total RNA,F,85,D01,Survivor
+"Patient 70, Day2",Homo sapiens,total RNA,F,85,D02,Survivor
+"Patient 72, Day1",Homo sapiens,total RNA,M,25,D01,Survivor
+"Patient 72, Day3",Homo sapiens,total RNA,M,25,D03,Survivor
+"Patient 74, Day1",Homo sapiens,total RNA,M,70,D01,Survivor
+"Patient 74, Day2",Homo sapiens,total RNA,M,70,D02,Survivor
+"Patient 80, Day1",Homo sapiens,total RNA,F,53,D01,Survivor
+"Patient 80, Day3",Homo sapiens,total RNA,F,53,D03,Survivor
+"Patient 86, Day1",Homo sapiens,total RNA,M,70,D01,Survivor
+"Patient 86, Day2",Homo sapiens,total RNA,M,70,D02,Survivor
+"Patient 93, Day1",Homo sapiens,total RNA,M,58,D01,Survivor
+"Patient 93, Day3",Homo sapiens,total RNA,M,58,D03,Survivor
+"Patient 95, Day1",Homo sapiens,total RNA,M,67,D01,Survivor
+"Patient 95, Day3",Homo sapiens,total RNA,M,67,D03,Survivor
+"Patient 102, Day1",Homo sapiens,total RNA,M,85,D01,Non Survivor
+"Patient 102, Day2",Homo sapiens,total RNA,M,85,D02,Non Survivor
+"Patient 123, Day1",Homo sapiens,total RNA,F,67,D01,Non Survivor
+"Patient 123, Day2",Homo sapiens,total RNA,F,67,D02,Non Survivor
+"Patient 168, Day1",Homo sapiens,total RNA,M,47,D01,Non Survivor
+"Patient 168, Day2",Homo sapiens,total RNA,M,47,D02,Non Survivor
+"Patient 179, Day1",Homo sapiens,total RNA,M,65,D01,Non Survivor
+"Patient 179, Day2",Homo sapiens,total RNA,M,65,D02,Non Survivor
+"Patient 18, Day1",Homo sapiens,total RNA,H,66,D01,Non Survivor
+"Patient 18, Day2",Homo sapiens,total RNA,H,66,D02,Non Survivor
+"Patient 198, Day1",Homo sapiens,total RNA,F,47,D01,Non Survivor
+"Patient 198, Day3",Homo sapiens,total RNA,F,47,D03,Non Survivor
+"Patient 201, Day1",Homo sapiens,total RNA,F,48,D01,Non Survivor
+"Patient 201, Day2",Homo sapiens,total RNA,F,48,D02,Non Survivor
+"Patient 212, Day1",Homo sapiens,total RNA,F,45,D01,Non Survivor
+"Patient 212, Day2",Homo sapiens,total RNA,F,45,D02,Non Survivor
+"Patient 216, Day1",Homo sapiens,total RNA,M,59,D01,Non Survivor
+"Patient 216, Day3",Homo sapiens,total RNA,M,59,D03,Non Survivor
+"Patient 35, Day1",Homo sapiens,total RNA,M,78,D01,Non Survivor
+"Patient 35, Day3",Homo sapiens,total RNA,M,78,D03,Non Survivor
+"Patient 36, Day1",Homo sapiens,total RNA,F,55,D01,Non Survivor
+"Patient 36, Day3",Homo sapiens,total RNA,F,55,D03,Non Survivor
+"Patient 62, Day1",Homo sapiens,total RNA,F,70,D01,Non Survivor
+"Patient 62, Day3",Homo sapiens,total RNA,F,70,D03,Non Survivor
+"Patient 67, Day1",Homo sapiens,total RNA,H,72,D01,Non Survivor
+"Patient 67, Day3",Homo sapiens,total RNA,H,72,D03,Non Survivor
+"Patient 68, Day1",Homo sapiens,total RNA,M,46,D01,Non Survivor
+"Patient 68, Day3",Homo sapiens,total RNA,M,46,D03,Non Survivor
+"Patient 77, Day1",Homo sapiens,total RNA,F,78,D01,Non Survivor
+"Patient 77, Day2",Homo sapiens,total RNA,F,78,D02,Non Survivor
+"Patient 78, Day1",Homo sapiens,total RNA,F,53,D01,Non Survivor
+"Patient 78, Day3",Homo sapiens,total RNA,F,53,D03,Non Survivor
+"Patient 81, Day1",Homo sapiens,total RNA,F,54,D01,Non Survivor
+"Patient 81, Day3",Homo sapiens,total RNA,F,54,D03,Non Survivor

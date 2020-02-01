@@ -1,0 +1,4414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Andreas</First><Last>Dix</Last></Person>
+    <Organization>Hans-Knöll-Institut</Organization>
+    <Address>
+      <Line>Beutenbergstraße 11a</Line>
+      <City>Jena</City>
+      <Zip-Code>07745</Zip-Code>
+      <Country>Germany</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization>Illumina Inc.</Organization>
+    <Email>expression@illumina.com, techsupport@illumina.com</Email>
+    <Phone>1 800 809 4566 </Phone>
+    <Organization>Illumina Inc.</Organization>
+    <Address>
+      <Line>9885 Towne Centre Drive</Line>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip-Code>92121</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>www.illumina.com</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Kerstin</First><Last>Hünniger</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Michael</First><Last>Weber</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Reinhard</First><Last>Guthke</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Oliver</First><Last>Kurzai</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Jörg</First><Last>Linde</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL10558">
+    <Status database="GEO">
+      <Submission-Date>2010-06-17</Submission-Date>
+      <Release-Date>2010-06-17</Release-Date>
+      <Last-Update-Date>2018-08-13</Last-Update-Date>
+    </Status>
+    <Title>Illumina HumanHT-12 V4.0 expression beadchip</Title>
+    <Accession database="GEO">GPL10558</Accession>
+    <Technology>oligonucleotide beads</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Illumina Inc.</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's website
+    </Manufacture-Protocol>
+    <Description>
+The HumanHT-12 v4 Expression BeadChip provides high throughput processing of 12 samples per BeadChip without the need for expensive, specialized automation. The BeadChip is designed to support flexible usage across a wide-spectrum of experiments.
+
+The updated content on the HumanHT-12 v4 Expression BeadChips provides more biologically meaningful results through genome-wide transcriptional coverage of well-characterized genes, gene candidates, and splice variants.
+
+Each array on the HumanHT-12 v4 Expression BeadChip targets more than 31,000 annotated genes with more than 47,000 probes derived from the National Center for Biotechnology Information Reference Sequence (NCBI) RefSeq Release 38 (November 7, 2009) and other sources.
+
+Please use the GEO Data Submission Report Plug-in v1.0 for Gene Expression which may be downloaded from https://icom.illumina.com/icom/software.ilmn?id=234 to format the normalized and raw data.  These should be submitted as part of a GEOarchive.  Instructions for assembling a GEOarchive may be found at http://www.ncbi.nlm.nih.gov/projects/geo/info/spreadsheet.html
+
+October 11, 2012: annotation table updated with HumanHT-12_V4_0_R2_15002873_B.txt
+    </Description>
+    <Contact-Ref ref="contrib2" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/suppl/GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt.gz
+    </Supplementary-Data>
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/suppl/GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt.gz
+    </Supplementary-Data>
+    <Relation type="Alternative to" target="GPL10904" />
+    <Relation type="Alternative to" target="GPL22366" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Unique identifier for the probe (across all products and species)</Description>
+      </Column>
+      <Column position="2">
+        <Name>Species</Name>
+      </Column>
+      <Column position="3">
+        <Name>Source</Name>
+        <Description>Transcript sequence source name</Description>
+      </Column>
+      <Column position="4">
+        <Name>Search_Key</Name>
+        <Description>Internal id useful for custom design array</Description>
+      </Column>
+      <Column position="5">
+        <Name>Transcript</Name>
+        <Description>Internal transcript id</Description>
+      </Column>
+      <Column position="6">
+        <Name>ILMN_Gene</Name>
+        <Description>Internal gene symbol</Description>
+      </Column>
+      <Column position="7">
+        <Name>Source_Reference_ID</Name>
+        <Description>Id in the source database</Description>
+      </Column>
+      <Column position="8">
+        <Name>RefSeq_ID</Name>
+        <Description>Refseq id</Description>
+      </Column>
+      <Column position="9">
+        <Name>Unigene_ID</Name>
+        <Description>Unigene id</Description>
+      </Column>
+      <Column position="10">
+        <Name>Entrez_Gene_ID</Name>
+        <Description>Entrez gene id</Description>
+      </Column>
+      <Column position="11">
+        <Name>GI</Name>
+        <Description>Genbank id</Description>
+      </Column>
+      <Column position="12">
+        <Name>Accession</Name>
+        <Description>Genbank accession number</Description>
+      </Column>
+      <Column position="13">
+        <Name>Symbol</Name>
+        <Description>Gene symbol from the source database</Description>
+      </Column>
+      <Column position="14">
+        <Name>Protein_Product</Name>
+        <Description>Genbank protein accession number</Description>
+      </Column>
+      <Column position="15">
+        <Name>Probe_Id</Name>
+      </Column>
+      <Column position="16">
+        <Name>Array_Address_Id</Name>
+        <Description>Decoder id</Description>
+      </Column>
+      <Column position="17">
+        <Name>Probe_Type</Name>
+        <Description>Information about what this probe is targeting</Description>
+      </Column>
+      <Column position="18">
+        <Name>Probe_Start</Name>
+        <Description>Position of the probe relative to the 5' of the source transcript sequence</Description>
+      </Column>
+      <Column position="19">
+        <Name>SEQUENCE</Name>
+        <Description>Probe sequence</Description>
+      </Column>
+      <Column position="20">
+        <Name>Chromosome</Name>
+        <Description>Chromosome</Description>
+      </Column>
+      <Column position="21">
+        <Name>Probe_Chr_Orientation</Name>
+        <Description>Orientation on the NCBI genome built</Description>
+      </Column>
+      <Column position="22">
+        <Name>Probe_Coordinates</Name>
+        <Description>genomic position of the probe on the NCBI genome build 36 version 3</Description>
+      </Column>
+      <Column position="23">
+        <Name>Cytoband</Name>
+      </Column>
+      <Column position="24">
+        <Name>Definition</Name>
+        <Description>Gene description from the source</Description>
+      </Column>
+      <Column position="25">
+        <Name>Ontology_Component</Name>
+        <Description>Cellular component annotations from Gene Ontology project</Description>
+      </Column>
+      <Column position="26">
+        <Name>Ontology_Process</Name>
+        <Description>Biological process annotations from Gene Ontology project</Description>
+      </Column>
+      <Column position="27">
+        <Name>Ontology_Function</Name>
+        <Description>Molecular function annotations from Gene Ontology project</Description>
+      </Column>
+      <Column position="28">
+        <Name>Synonyms</Name>
+        <Description>Gene symbol synonyms from Refseq</Description>
+      </Column>
+      <Column position="29">
+        <Name>Obsolete_Probe_Id</Name>
+        <Description>Identifier of probe id before bgx time</Description>
+      </Column>
+      <Column position="30">
+        <Name>GB_ACC</Name>
+      </Column>
+    <External-Data rows="48107">
+GPL10558-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM1586929">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 1)</Title>
+    <Accession database="GEO">GSM1586929</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 1
+donor 1, mock-infected blood, 4h post infection, sample 1
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586929-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586930">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 2)</Title>
+    <Accession database="GEO">GSM1586930</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 2
+donor 1, mock-infected blood, 4h post infection, sample 2
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586930-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586931">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 3)</Title>
+    <Accession database="GEO">GSM1586931</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 3
+donor 1, mock-infected blood, 4h post infection, sample 3
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586931-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586932">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_4h_D1 (sample 4)</Title>
+    <Accession database="GEO">GSM1586932</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 4
+donor 1, Candida albicans-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586932-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586933">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_8h_D1 (sample 5)</Title>
+    <Accession database="GEO">GSM1586933</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 5
+donor 1, Candida albicans-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586933-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586934">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_4h_D1 (sample 6)</Title>
+    <Accession database="GEO">GSM1586934</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 6
+donor 1, Staphylococcus aureus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586934-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586935">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_8h_D1 (sample 7)</Title>
+    <Accession database="GEO">GSM1586935</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 7
+donor 1, Staphylococcus aureus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586935-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586936">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_4h_D1 (sample 8)</Title>
+    <Accession database="GEO">GSM1586936</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 8
+donor 1, Escherichia coli-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586936-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586937">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_8h_D1 (sample 9)</Title>
+    <Accession database="GEO">GSM1586937</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 9
+donor 1, Escherichia coli-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586937-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586938">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D2 (sample 10)</Title>
+    <Accession database="GEO">GSM1586938</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 10
+donor 2, mock-infected blood, 4h post infection, sample 1
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586938-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586939">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D2 (sample 11)</Title>
+    <Accession database="GEO">GSM1586939</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 11
+donor 2, mock-infected blood, 4h post infection, sample 2
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586939-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586940">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D2 (sample 12)</Title>
+    <Accession database="GEO">GSM1586940</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 12
+donor 2, mock-infected blood, 4h post infection, sample 3
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586940-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586941">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_4h_D2 (sample 13)</Title>
+    <Accession database="GEO">GSM1586941</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 13
+donor 2, Candida albicans-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586941-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586942">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_8h_D2 (sample 14)</Title>
+    <Accession database="GEO">GSM1586942</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 14
+donor 2, Candida albicans-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586942-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586943">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_4h_D2 (sample 15)</Title>
+    <Accession database="GEO">GSM1586943</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 15
+donor 2, Staphylococcus aureus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586943-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586944">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_8h_D2 (sample 16)</Title>
+    <Accession database="GEO">GSM1586944</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 16
+donor 2, Staphylococcus aureus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586944-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586945">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_4h_D2 (sample 17)</Title>
+    <Accession database="GEO">GSM1586945</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 17
+donor 2, Escherichia coli-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586945-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586946">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_8h_D2 (sample 18)</Title>
+    <Accession database="GEO">GSM1586946</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 2
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 18
+donor 2, Escherichia coli-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586946-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586947">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D3 (sample 19)</Title>
+    <Accession database="GEO">GSM1586947</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 19
+donor 3, mock-infected blood, 4h post infection, sample 1
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586947-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586948">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D3 (sample 20)</Title>
+    <Accession database="GEO">GSM1586948</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 20
+donor 3, mock-infected blood, 4h post infection, sample 2
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586948-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586949">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D3 (sample 21)</Title>
+    <Accession database="GEO">GSM1586949</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 21
+donor 3, mock-infected blood, 4h post infection, sample 3
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586949-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586950">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_4h_D3 (sample 22)</Title>
+    <Accession database="GEO">GSM1586950</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 22
+donor 3, Candida albicans-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586950-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586951">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_8h_D3 (sample 23)</Title>
+    <Accession database="GEO">GSM1586951</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 23
+donor 3, Candida albicans-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586951-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586952">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_4h_D3 (sample 24)</Title>
+    <Accession database="GEO">GSM1586952</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 24
+donor 3, Staphylococcus aureus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586952-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586953">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_8h_D3 (sample 25)</Title>
+    <Accession database="GEO">GSM1586953</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 25
+donor 3, Staphylococcus aureus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586953-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586954">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_4h_D3 (sample 26)</Title>
+    <Accession database="GEO">GSM1586954</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 26
+donor 3, Escherichia coli-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586954-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586955">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_8h_D3 (sample 27)</Title>
+    <Accession database="GEO">GSM1586955</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 3
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 27
+donor 3, Escherichia coli-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586955-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586956">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 28)</Title>
+    <Accession database="GEO">GSM1586956</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 28
+donor 1, mock-infected blood, 4h post infection, sample 1
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586956-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586957">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 29)</Title>
+    <Accession database="GEO">GSM1586957</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 29
+donor 1, mock-infected blood, 4h post infection, sample 2
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586957-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586958">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D1 (sample 30)</Title>
+    <Accession database="GEO">GSM1586958</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 30
+donor 1, mock-infected blood, 4h post infection, sample 3
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586958-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586959">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_4h_D1 (sample 31)</Title>
+    <Accession database="GEO">GSM1586959</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 31
+donor 1, Candida albicans-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586959-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586960">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_8h_D1 (sample 32)</Title>
+    <Accession database="GEO">GSM1586960</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 32
+donor 1, Candida albicans-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586960-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586961">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_4h_D1 (sample 33)</Title>
+    <Accession database="GEO">GSM1586961</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 33
+donor 1, Staphylococcus aureus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586961-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586962">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_8h_D1 (sample 34)</Title>
+    <Accession database="GEO">GSM1586962</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 34
+donor 1, Staphylococcus aureus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586962-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586963">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_4h_D1 (sample 35)</Title>
+    <Accession database="GEO">GSM1586963</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 35
+donor 1, Escherichia coli-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586963-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586964">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_8h_D1 (sample 36)</Title>
+    <Accession database="GEO">GSM1586964</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 1
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 36
+donor 1, Escherichia coli-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586964-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586965">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D4 (sample 37)</Title>
+    <Accession database="GEO">GSM1586965</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 37
+donor 4, mock-infected blood, 4h post infection, sample 1
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586965-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586966">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D4 (sample 38)</Title>
+    <Accession database="GEO">GSM1586966</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 38
+donor 4, mock-infected blood, 4h post infection, sample 2
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586966-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586967">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D4 (sample 39)</Title>
+    <Accession database="GEO">GSM1586967</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 39
+donor 4, mock-infected blood, 4h post infection, sample 3
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586967-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586968">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_4h_D4 (sample 40)</Title>
+    <Accession database="GEO">GSM1586968</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 40
+donor 4, Candida albicans-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586968-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586969">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ca_8h_D4 (sample 41)</Title>
+    <Accession database="GEO">GSM1586969</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Candida albicans
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 41
+donor 4, Candida albicans-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586969-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586970">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_4h_D4 (sample 42)</Title>
+    <Accession database="GEO">GSM1586970</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 42
+donor 4, Staphylococcus aureus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586970-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586971">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Sa_8h_D4 (sample 43)</Title>
+    <Accession database="GEO">GSM1586971</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Staphylococcus aureus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 43
+donor 4, Staphylococcus aureus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586971-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586972">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_4h_D4 (sample 44)</Title>
+    <Accession database="GEO">GSM1586972</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 44
+donor 4, Escherichia coli-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586972-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586973">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Ec_8h_D4 (sample 45)</Title>
+    <Accession database="GEO">GSM1586973</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 4
+      </Characteristics>
+      <Characteristics tag="infection">
+Escherichia coli
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 45
+donor 4, Escherichia coli-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586973-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586974">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D5 (sample 46)</Title>
+    <Accession database="GEO">GSM1586974</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 5
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 46
+donor 5, mock-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586974-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586975">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D5 (sample 47)</Title>
+    <Accession database="GEO">GSM1586975</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 5
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 47
+donor 5, mock-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586975-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586976">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_4h_D5 (sample 48)</Title>
+    <Accession database="GEO">GSM1586976</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 5
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 48
+donor 5, Aspergillus fumigatus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586976-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586977">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_8h_D5 (sample 49)</Title>
+    <Accession database="GEO">GSM1586977</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 5
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 49
+donor 5, Aspergillus fumigatus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586977-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586978">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D6 (sample 50)</Title>
+    <Accession database="GEO">GSM1586978</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 6
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 50
+donor 6, mock-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586978-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586979">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D6 (sample 51)</Title>
+    <Accession database="GEO">GSM1586979</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 6
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 51
+donor 6, mock-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586979-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586980">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_4h_D6 (sample 52)</Title>
+    <Accession database="GEO">GSM1586980</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 6
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 52
+donor 6, Aspergillus fumigatus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586980-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586981">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_8h_D6 (sample 53)</Title>
+    <Accession database="GEO">GSM1586981</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 6
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 53
+donor 6, Aspergillus fumigatus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586981-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586982">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D7 (sample 54)</Title>
+    <Accession database="GEO">GSM1586982</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 7
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 54
+donor 7, mock-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586982-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586983">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>mock_D7 (sample 55)</Title>
+    <Accession database="GEO">GSM1586983</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 7
+      </Characteristics>
+      <Characteristics tag="infection">
+mock
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 55
+donor 7, mock-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586983-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586984">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_4h_D7 (sample 56)</Title>
+    <Accession database="GEO">GSM1586984</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 7
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+4h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 56
+donor 7, Aspergillus fumigatus-infected blood, 4h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586984-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1586985">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2015-03-11</Last-Update-Date>
+    </Status>
+    <Title>Af_8h_D7 (sample 57)</Title>
+    <Accession database="GEO">GSM1586985</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Whole blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="individual">
+donor 7
+      </Characteristics>
+      <Characteristics tag="infection">
+Aspergillus fumigatus
+      </Characteristics>
+      <Characteristics tag="time">
+8h post infection
+      </Characteristics>
+      <Characteristics tag="gender">
+male
+      </Characteristics>
+      <Characteristics tag="tissue">
+blood
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Blood was collected and stored in PAXgene Blood RNA Tubes (PreAnalytiX) to stabilize intracellular RNA until further use. RNA isolation was performed using the PAXgene Blood RNA Kit (PreAnalytiX) corresponding to the manufacturer’s instruction. High quality of isolated RNA was proven by RNA integrity numbers (RIN) ranging from 8.2 to 9.5.
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+A total of 500 ng isolated RNA was immediately further processed to synthesize biotin-labeled complementary RNA (cRNA) using the Illumina® TotalPrep™ RNA Amplification Kit (Ambion). All procedures were carried out as proposed in the manufacturer’s protocol. Concentration as well as quality of cRNA were verified via the NanoDrop™ 1000 Spectrophotometer system (Thermo Scientific).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Standard Illumina hybridization protocol
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Standard Illumina scanning protocol
+    </Scan-Protocol>
+    <Description>
+SAMPLE 57
+donor 7, Aspergillus fumigatus-infected blood, 8h post infection
+    </Description>
+    <Data-Processing>
+The data was read in, background corrected, and log2-transformed using the “lumi” package in R
+    </Data-Processing>
+    <Platform-Ref ref="GPL10558" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>background corrected, log2-transformed signal</Description>
+      </Column>
+      <Column position="3">
+        <Name>Detection Pval</Name>
+      </Column>
+    <External-Data rows="47230">
+GSM1586985-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE65088">
+    <Status database="GEO">
+      <Submission-Date>2015-01-19</Submission-Date>
+      <Release-Date>2015-03-11</Release-Date>
+      <Last-Update-Date>2018-08-13</Last-Update-Date>
+    </Status>
+    <Title>Biomarker-based classification of bacterial and fungal whole-blood infections in a genome-wide expression study</Title>
+    <Accession database="GEO">GSE65088</Accession>
+    <Pubmed-ID>25814982</Pubmed-ID>
+    <Summary>
+Sepsis is a clinical syndrome that can be caused by bacteria or fungi. Early knowledge on the nature of the causative agent is a prerequisite for targeted anti-microbial therapy. Besides currently used detection methods like blood culture and PCR-based assays, the analysis of the transcriptional response of the host to infecting organisms holds great promise. In this study, we aim to examine the transcriptional footprint of infections caused by the bacterial pathogens Staphylococcus aureus and Escherichia coli and the fungal pathogens Candida albicans and Aspergillus fumigatus in a human whole-blood model. Moreover, we use the expression information to build a random forest classifier to determine if the pathogen is bacterial, fungal or neither of the two. After normalizing the transcription intensities using stably expressed reference genes, we filtered the gene set for biomarkers of bacterial or fungal blood infections. This selection is based on differential expression and an additional gene relevance measure. In this way, we identified 38 biomarker genes, including IL6, SOCS3, and IRG1 which were already associated to sepsis by other studies. Using these genes, we trained the classifier and assessed its performance. It yielded a 96% accuracy (sensitivities &gt;93%, specificities &gt;97%) for a 10-fold stratified cross-validation and a 92% accuracy (sensitivities and specificities &gt;83%) for an additional dataset comprising Cryptococcus neoformans infections. Furthermore, the noise-robustness of the classifier suggests high rates of correct class predictions on datasets of new species. In conclusion, this genome-wide approach demonstrates an effective feature selection process in combination with the construction of a well-performing classification model. Further analyses of genes with pathogen-dependent expression patterns can provide insights into the systemic host responses, which may lead to new anti-microbial therapeutic advances.
+    </Summary>
+    <Overall-Design>
+Analysis of innate immune activation on the basis of gene expression of whole blood cells during ex vivo whole blood infection with bacterial (Staphylococcus aureus, Escherichia coli) and fungal pathogens (Candida albicans, Aspergillus fumigatus) in comparison to mock-treated blood.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contributor-Ref ref="contrib4" position="3" />
+    <Contributor-Ref ref="contrib5" position="4" />
+    <Contributor-Ref ref="contrib6" position="5" />
+    <Contributor-Ref ref="contrib7" position="6" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM1586929" />
+    <Sample-Ref ref="GSM1586930" />
+    <Sample-Ref ref="GSM1586931" />
+    <Sample-Ref ref="GSM1586932" />
+    <Sample-Ref ref="GSM1586933" />
+    <Sample-Ref ref="GSM1586934" />
+    <Sample-Ref ref="GSM1586935" />
+    <Sample-Ref ref="GSM1586936" />
+    <Sample-Ref ref="GSM1586937" />
+    <Sample-Ref ref="GSM1586938" />
+    <Sample-Ref ref="GSM1586939" />
+    <Sample-Ref ref="GSM1586940" />
+    <Sample-Ref ref="GSM1586941" />
+    <Sample-Ref ref="GSM1586942" />
+    <Sample-Ref ref="GSM1586943" />
+    <Sample-Ref ref="GSM1586944" />
+    <Sample-Ref ref="GSM1586945" />
+    <Sample-Ref ref="GSM1586946" />
+    <Sample-Ref ref="GSM1586947" />
+    <Sample-Ref ref="GSM1586948" />
+    <Sample-Ref ref="GSM1586949" />
+    <Sample-Ref ref="GSM1586950" />
+    <Sample-Ref ref="GSM1586951" />
+    <Sample-Ref ref="GSM1586952" />
+    <Sample-Ref ref="GSM1586953" />
+    <Sample-Ref ref="GSM1586954" />
+    <Sample-Ref ref="GSM1586955" />
+    <Sample-Ref ref="GSM1586956" />
+    <Sample-Ref ref="GSM1586957" />
+    <Sample-Ref ref="GSM1586958" />
+    <Sample-Ref ref="GSM1586959" />
+    <Sample-Ref ref="GSM1586960" />
+    <Sample-Ref ref="GSM1586961" />
+    <Sample-Ref ref="GSM1586962" />
+    <Sample-Ref ref="GSM1586963" />
+    <Sample-Ref ref="GSM1586964" />
+    <Sample-Ref ref="GSM1586965" />
+    <Sample-Ref ref="GSM1586966" />
+    <Sample-Ref ref="GSM1586967" />
+    <Sample-Ref ref="GSM1586968" />
+    <Sample-Ref ref="GSM1586969" />
+    <Sample-Ref ref="GSM1586970" />
+    <Sample-Ref ref="GSM1586971" />
+    <Sample-Ref ref="GSM1586972" />
+    <Sample-Ref ref="GSM1586973" />
+    <Sample-Ref ref="GSM1586974" />
+    <Sample-Ref ref="GSM1586975" />
+    <Sample-Ref ref="GSM1586976" />
+    <Sample-Ref ref="GSM1586977" />
+    <Sample-Ref ref="GSM1586978" />
+    <Sample-Ref ref="GSM1586979" />
+    <Sample-Ref ref="GSM1586980" />
+    <Sample-Ref ref="GSM1586981" />
+    <Sample-Ref ref="GSM1586982" />
+    <Sample-Ref ref="GSM1586983" />
+    <Sample-Ref ref="GSM1586984" />
+    <Sample-Ref ref="GSM1586985" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE65nnn/GSE65088/suppl/GSE65088_RAW.tar
+    </Supplementary-Data>
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE65nnn/GSE65088/suppl/GSE65088_non-normalized_data.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA272923" />
+  </Series>
+
+</MINiML>

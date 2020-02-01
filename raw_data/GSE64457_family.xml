@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Julien</First><Last>Textoris</Last></Person>
+    <Email>julien.textoris@gmail.com</Email>
+    <Phone>+33 472 119 546</Phone>
+    <Laboratory>Joint Research Unit - bioMérieux / HCL</Laboratory>
+    <Department>Medical Diagnostic Discovery Department (MD3)</Department>
+    <Organization>bioMérieux</Organization>
+    <Address>
+      <Line>Hôpital Edouard herriot - Pavillon P; 5 place d'Arsonval</Line>
+      <City>Lyon</City>
+      <Zip-Code>69437</Zip-Code>
+      <Country>France</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Julie</First><Last>Demaret</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Fabienne</First><Last>Venet</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Arnaud</First><Last>Friggeri</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Marie-Angélique</First><Last>Cazalis</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Jonathan</First><Last>Plassais</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Laurent</First><Last>Jallades</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Christophe</First><Last>Malcus</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Françoise</First><Last>Poitevin-Later</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Alain</First><Last>Lepape</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib12">
+    <Person><First>Guillaume</First><Last>Monneret</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL570">
+    <Status database="GEO">
+      <Submission-Date>2003-11-07</Submission-Date>
+      <Release-Date>2003-11-07</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array</Title>
+    <Accession database="GEO">GPL570</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+see manufacturer's web site
+
+Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts
+All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).
+In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31).
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 06, 2012: annotation table updated with netaffx build 32
+June 23, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus</Web-Link>
+    <Web-Link>http://www.affymetrix.com/analysis/index.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL4454" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL4866" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL5760" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6671" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6791" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL6879" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL7567" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8019" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8542" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8715" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL8712" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9102" comment="Probe Level Version" />
+    <Relation type="Alternative to" target="GPL9099" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9101" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9324" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9486" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL9987" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10175" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10335" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10371" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10526" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10881" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10925" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11084" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11433" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11670" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13232" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]" />
+    <Relation type="Alternative to" target="GPL13303" comment="Alternative CDF." />
+    <Relation type="Alternative to" target="GPL13916" comment="[Brainarray ENSG Version 14.1]" />
+    <Relation type="Alternative to" target="GPL14837" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL14877" comment="[Alternative CDF]" />
+    <Relation type="Alternative to" target="GPL15394" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]" />
+    <Relation type="Alternative to" target="GPL6732" comment="Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]" />
+    <Relation type="Alternative to" target="GPL15445" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16066" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16100" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL16268" comment="Alternative CDF [Brainarray ENSG Version 16]" />
+    <Relation type="Alternative to" target="GPL16273" comment="Alternative CDF [Brainarray ENSG Version 15]" />
+    <Relation type="Alternative to" target="GPL16311" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]" />
+    <Relation type="Alternative to" target="GPL16356" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]" />
+    <Relation type="Alternative to" target="GPL16372" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]" />
+    <Relation type="Alternative to" target="GPL17392" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]" />
+    <Relation type="Alternative to" target="GPL17394" comment="Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]" />
+    <Relation type="Alternative to" target="GPL17810" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]" />
+    <Relation type="Alternative to" target="GPL17811" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]" />
+    <Relation type="Alternative to" target="GPL17996" comment="Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0" />
+    <Relation type="Alternative to" target="GPL18121" comment="custom CDF" />
+    <Relation type="Alternative to: GPL18756 (Alternative CDF [CDF" target="HGU133Plus2_Hs_ENTREZG_14.1.0])" />
+    <Relation type="Alternative to" target="GPL18850" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18478" comment="Alternative CDF [Hs_ENTREZG_V13]" />
+    <Relation type="Alternative to" target="GPL19109" comment="Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]" />
+    <Relation type="Alternative to" target="GPL19883" comment="Alternative CDF [Broad GenePattern]" />
+    <Relation type="Alternative to" target="GPL19918" comment="Gene symbol version, 10K" />
+    <Relation type="Alternative to" target="GPL20182" comment="Gene Symbol Version" />
+    <Relation type="Alternative to" target="GPL22321" comment="Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]" />
+    <Relation type="Alternative to" target="GPL22945" comment="alternative" />
+    <Relation type="Alternative to" target="GPL23270" comment="(Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 21]" />
+    <Relation type="Alternative to" target="GPL23432" comment="alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray version 18.0.0]" />
+    <Relation type="Alternative to" target="GPL25740" comment="alternative" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Affymetrix Probe Set ID </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=U133PLUS&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_ACC</Name>
+        <Description>GenBank Accession Number </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>identifies controls</Description>
+      </Column>
+      <Column position="4">
+        <Name>Species Scientific Name</Name>
+        <Description>The genus and species of the organism represented by the probe set.</Description>
+      </Column>
+      <Column position="5">
+        <Name>Annotation Date</Name>
+        <Description>The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site.</Description>
+      </Column>
+      <Column position="6">
+        <Name>Sequence Type</Name>
+      </Column>
+      <Column position="7">
+        <Name>Sequence Source</Name>
+        <Description>The database from which the sequence used to design this probe set was taken.</Description>
+      </Column>
+      <Column position="8">
+        <Name>Target Description</Name>
+      </Column>
+      <Column position="9">
+        <Name>Representative Public ID</Name>
+        <Description>The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the &quot;Sequence Source&quot; field to determine the database used.</Description>
+      </Column>
+      <Column position="10">
+        <Name>Gene Title</Name>
+        <Description>Title of Gene represented by the probe set.</Description>
+      </Column>
+      <Column position="11">
+        <Name>Gene Symbol</Name>
+        <Description>A gene symbol, when one is available (from UniGene).</Description>
+      </Column>
+      <Column position="12">
+        <Name>ENTREZ_GENE_ID</Name>
+        <Description>Entrez Gene Database UID  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+        <Link-Delimiter> /// </Link-Delimiter>
+      </Column>
+      <Column position="13">
+        <Name>RefSeq Transcript ID</Name>
+        <Description>References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet.</Description>
+      </Column>
+      <Column position="14">
+        <Name>Gene Ontology Biological Process</Name>
+        <Description>Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="15">
+        <Name>Gene Ontology Cellular Component</Name>
+        <Description>Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+      <Column position="16">
+        <Name>Gene Ontology Molecular Function</Name>
+        <Description>Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: &quot;Accession Number // Description // Evidence&quot;. The description corresponds directly to the GO ID. The evidence can be &quot;direct&quot;, or &quot;extended&quot;.</Description>
+      </Column>
+    <External-Data rows="54675">
+GPL570-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM1571528">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_2_J4</Title>
+    <Accession database="GEO">GSM1571528</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+2
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D4
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571528/suppl/GSM1571528_2_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571528-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571529">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_3_J7</Title>
+    <Accession database="GEO">GSM1571529</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+3
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D7
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571529/suppl/GSM1571529_3_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571529-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571530">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_5_J4</Title>
+    <Accession database="GEO">GSM1571530</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+5
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D4
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571530/suppl/GSM1571530_5_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571530-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571531">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_6_J8</Title>
+    <Accession database="GEO">GSM1571531</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+6
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D8
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571531/suppl/GSM1571531_6_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571531-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571532">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_9_J3</Title>
+    <Accession database="GEO">GSM1571532</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+9
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D3
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571532/suppl/GSM1571532_9_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571532-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571533">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_11_J3</Title>
+    <Accession database="GEO">GSM1571533</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+11
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D3
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571533/suppl/GSM1571533_11_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571533-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571534">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_12_J7</Title>
+    <Accession database="GEO">GSM1571534</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+12
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D7
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571534/suppl/GSM1571534_12_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571534-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571535">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_13_J3</Title>
+    <Accession database="GEO">GSM1571535</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+13
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D3
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571535/suppl/GSM1571535_13_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571535-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571536">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_14_J4</Title>
+    <Accession database="GEO">GSM1571536</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+14
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D4
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571536/suppl/GSM1571536_14_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571536-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571537">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_15_J7</Title>
+    <Accession database="GEO">GSM1571537</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+15
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D7
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571537/suppl/GSM1571537_15_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571537-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571538">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_16_J4</Title>
+    <Accession database="GEO">GSM1571538</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+16
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D4
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+1
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571538/suppl/GSM1571538_16_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571538-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571539">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_17_J7</Title>
+    <Accession database="GEO">GSM1571539</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+17
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D7
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571539/suppl/GSM1571539_17_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571539-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571540">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_18_J4</Title>
+    <Accession database="GEO">GSM1571540</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+18
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D4
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571540/suppl/GSM1571540_18_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571540-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571541">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_19_J6</Title>
+    <Accession database="GEO">GSM1571541</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+19
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D6
+      </Characteristics>
+      <Characteristics tag="sample_group">
+2
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571541/suppl/GSM1571541_19_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571541-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571542">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>Patient_20_J3</Title>
+    <Accession database="GEO">GSM1571542</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+20
+      </Characteristics>
+      <Characteristics tag="sample_type">
+Patient
+      </Characteristics>
+      <Characteristics tag="sample_day">
+D3
+      </Characteristics>
+      <Characteristics tag="sample_group">
+1
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571542/suppl/GSM1571542_20_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571542-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571543">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_21_NA</Title>
+    <Accession database="GEO">GSM1571543</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+21
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571543/suppl/GSM1571543_21_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571543-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571544">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_22_NA</Title>
+    <Accession database="GEO">GSM1571544</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+22
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571544/suppl/GSM1571544_22_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571544-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571545">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_23_NA</Title>
+    <Accession database="GEO">GSM1571545</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+23
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571545/suppl/GSM1571545_23_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571545-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571546">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_24_NA</Title>
+    <Accession database="GEO">GSM1571546</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+24
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571546/suppl/GSM1571546_24_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571546-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571547">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_25_NA</Title>
+    <Accession database="GEO">GSM1571547</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+25
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571547/suppl/GSM1571547_25_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571547-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571548">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_26_NA</Title>
+    <Accession database="GEO">GSM1571548</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+26
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571548/suppl/GSM1571548_26_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571548-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571549">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_27_NA</Title>
+    <Accession database="GEO">GSM1571549</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+27
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571549/suppl/GSM1571549_27_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571549-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM1571550">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2015-12-29</Last-Update-Date>
+    </Status>
+    <Title>HD_28_NA</Title>
+    <Accession database="GEO">GSM1571550</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Purified neutrophils</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="sample_number">
+28
+      </Characteristics>
+      <Characteristics tag="sample_type">
+healthy control
+      </Characteristics>
+      <Characteristics tag="sample_day">
+NA
+      </Characteristics>
+      <Characteristics tag="sample_group">
+3
+      </Characteristics>
+      <Characteristics tag="sample_batch">
+2
+      </Characteristics>
+      <Treatment-Protocol>
+Blood samples were first diluted (1:2) with phosphate-buffered saline, layered over Ficoll-Paque (Biochrom, Germany) and centrifuged. Neutrophils were then aspirated and collected; after a washing step and red blood cell lysis (Versalyse, Beckman Coulter), viability and purity were determined by flow cytometry using LDS 751 (Life Technologies, Carlsbad, CA). Human neutrophil Enrichment Kit (Stem Cell, Canada) was used to purify neutrophils following the manufacturer’s recommendations. 5.107 cells/well (dilution in recommended buffer: PBS + 2% Fetal Bovine Serum or 0.5% BSA+ 1mM EDTA) were plated into a 96-untreated U-bottom plate (Corning, NY) and 50µl/ml of EasySep™ Human Enrichment Cocktail were added for 10 min. Incubation with 100µl/ml of EasySep™ D Magnetic Particles for 5 min preceded the action held by the EasyPlate™ magnet when placing the plate onto the magnet for 10 min. The supernatant contained the enriched neutrophils. Granulocytes were suspended in Qiagen RLT Buffer (Qiagen, the Netherlands) containing 1% B-mercaptoethanol and stored at -80°C until RNA isolation.
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+RNA was isolated using Qiagen RNAeasy Plus Mini RNA isolation kit according to the manufacturer’s protocol. The integrity and quality of the total RNA was assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Germany) by means of the RNA 6000 Nano assay (Agilent). cDNA was synthesized from 50 ng total RNA using the WT-Ovation™ System (NuGEN, San Carlos, CA).
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Fragmented cDNA was end-labeled with a biotin-conjugated nucleotide analog (DLR-1a; Affymetrix, Santa Clara, CA) by using terminal transferase (Roche Diagnostics, Germany).
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Fragmented and labeled cDNA was hybridized for 18 h at 50°C. Hybridization was performed using GeneChip® Human Genome U133 Plus 2.0 arrays (Affymetrix).
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The microarrays were read with the GeneChip Scanner 3000 (Affymetrix).
+    </Scan-Protocol>
+    <Description>
+RNA from purified neutrophils
+    </Description>
+    <Data-Processing>
+Normalization processing and quality controls were performed using R/Bioconductor (R version 3.0.0 (2013-04-03)) (R Development Core Team – 2009). We performed quality controls at both probe and probeset levels). Raw expression profiles were normalized using the GC-RMA algorithm (R/Bioconductor). To reduce the number of probeset, we applied a filtering process based on the MAS5.0 p-values.
+    </Data-Processing>
+    <Platform-Ref ref="GPL570" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1571nnn/GSM1571550/suppl/GSM1571550_28_HG-U133_Plus_2_.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>normalized, log-2 transformed intensities</Description>
+      </Column>
+    <External-Data rows="12630">
+GSM1571550-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE64457">
+    <Status database="GEO">
+      <Submission-Date>2014-12-23</Submission-Date>
+      <Release-Date>2015-12-28</Release-Date>
+      <Last-Update-Date>2019-03-25</Last-Update-Date>
+    </Status>
+    <Title>Marked alterations of neutrophil functions during sepsis-induced immunosuppression</Title>
+    <Accession database="GEO">GSE64457</Accession>
+    <Pubmed-ID>26224052</Pubmed-ID>
+    <Summary>
+Background: Severe septic syndromes deeply impair innate and adaptive immunity. While neutrophils represent the first line of defense against infection, little is known about their phenotype and functions during sepsis-induced immunosuppression. The objective of this study was thus to perform for the first time a global evaluation of neutrophil alterations in immunosuppressed septic patients based on phenotypic, functional and transcriptomic studies. In addition, the potential association of these parameters and deleterious outcomes was assessed.
+Methods: Peripheral blood was collected from 9 septic shock patients at D3-4 and D6-8 presenting with features of sepsis-induced immunosuppression and compared to 8 healthy controls.
+Results: In order to get on overview of potential neutrophil alterations after sepsis, we performed transcriptomic analyses on purified neutrophils from 9 septic shock patients and 8 healthy volunteers. For each time point, comparisons were made between patients and controls. Venn diagrams indicated that 364 up-regulated genes and 328 down-regulated genes were common between the two analyses (Supplementary Tables 1 and 2). Interestingly, most of the differentially expressed genes are involved in cell maturation (CD177), apoptosis (STK4, Caspase 8), cell recruitment and chemotaxis (CD44, TPST, MMP9, CREB1), and antimicrobial properties (ARG1, STOM, ADAM9, CD63, YKL40) of neutrophils.
+Conclusions: The aim of the current study was to perform an extensive investigation of neutrophil alterations during sepsis-induced immunosuppression through phenotypic, functional and transcriptomic studies. Notably, transcriptomic study on purified neutrophils revealed differentially expressed genes between septic patients and healthy volunteers.
+    </Summary>
+    <Overall-Design>
+9 septic shock patients at D3-4 and D6-8 presenting with features of sepsis-induced immunosuppression and compared to 8 healthy controls
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib5" position="3" />
+    <Contributor-Ref ref="contrib6" position="4" />
+    <Contributor-Ref ref="contrib7" position="5" />
+    <Contributor-Ref ref="contrib8" position="6" />
+    <Contributor-Ref ref="contrib9" position="7" />
+    <Contributor-Ref ref="contrib10" position="8" />
+    <Contributor-Ref ref="contrib1" position="9" />
+    <Contributor-Ref ref="contrib11" position="10" />
+    <Contributor-Ref ref="contrib12" position="11" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM1571528" />
+    <Sample-Ref ref="GSM1571529" />
+    <Sample-Ref ref="GSM1571530" />
+    <Sample-Ref ref="GSM1571531" />
+    <Sample-Ref ref="GSM1571532" />
+    <Sample-Ref ref="GSM1571533" />
+    <Sample-Ref ref="GSM1571534" />
+    <Sample-Ref ref="GSM1571535" />
+    <Sample-Ref ref="GSM1571536" />
+    <Sample-Ref ref="GSM1571537" />
+    <Sample-Ref ref="GSM1571538" />
+    <Sample-Ref ref="GSM1571539" />
+    <Sample-Ref ref="GSM1571540" />
+    <Sample-Ref ref="GSM1571541" />
+    <Sample-Ref ref="GSM1571542" />
+    <Sample-Ref ref="GSM1571543" />
+    <Sample-Ref ref="GSM1571544" />
+    <Sample-Ref ref="GSM1571545" />
+    <Sample-Ref ref="GSM1571546" />
+    <Sample-Ref ref="GSM1571547" />
+    <Sample-Ref ref="GSM1571548" />
+    <Sample-Ref ref="GSM1571549" />
+    <Sample-Ref ref="GSM1571550" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE64nnn/GSE64457/suppl/GSE64457_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA271055" />
+  </Series>
+
+</MINiML>
